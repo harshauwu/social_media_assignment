@@ -1,0 +1,27 @@
+[2023-10-05T06:45:43.523+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Reddit_Post_Comment_Dag.sentiment_analysis_task manual__2023-10-05T06:44:43.227282+00:00 [queued]>
+[2023-10-05T06:45:43.538+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Reddit_Post_Comment_Dag.sentiment_analysis_task manual__2023-10-05T06:44:43.227282+00:00 [queued]>
+[2023-10-05T06:45:43.539+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-05T06:45:43.557+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): sentiment_analysis_task> on 2023-10-05 06:44:43.227282+00:00
+[2023-10-05T06:45:43.566+0000] {standard_task_runner.py:57} INFO - Started process 127 to run task
+[2023-10-05T06:45:43.573+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Reddit_Post_Comment_Dag', 'sentiment_analysis_task', 'manual__2023-10-05T06:44:43.227282+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/reddit_post_comment_dag.py', '--cfg-path', '/tmp/tmpbzo1a5ty']
+[2023-10-05T06:45:43.579+0000] {standard_task_runner.py:85} INFO - Job 67: Subtask sentiment_analysis_task
+[2023-10-05T06:45:43.652+0000] {task_command.py:415} INFO - Running <TaskInstance: Reddit_Post_Comment_Dag.sentiment_analysis_task manual__2023-10-05T06:44:43.227282+00:00 [running]> on host 44d08be4c1e6
+[2023-10-05T06:45:43.761+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Reddit_Post_Comment_Dag' AIRFLOW_CTX_TASK_ID='sentiment_analysis_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-05T06:44:43.227282+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-05T06:44:43.227282+00:00'
+[2023-10-05T06:45:43.776+0000] {logging_mixin.py:151} INFO - An error occurred in initial_data_transformation: 0
+[2023-10-05T06:45:43.778+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/plugins/sentiment_analysis.py", line 66, in update_polarity
+    raise e
+  File "/opt/airflow/plugins/sentiment_analysis.py", line 11, in update_polarity
+    reddit_comment_csv = ti.xcom_pull(key='reddit_post_comment_raw_data', task_ids=['extract_post_task'])[0]
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/xcom.py", line 794, in __getitem__
+    raise IndexError(key) from None
+IndexError: 0
+[2023-10-05T06:45:43.793+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Reddit_Post_Comment_Dag, task_id=sentiment_analysis_task, execution_date=20231005T064443, start_date=20231005T064543, end_date=20231005T064543
+[2023-10-05T06:45:43.818+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 67 for task sentiment_analysis_task (0; 127)
+[2023-10-05T06:45:43.867+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-05T06:45:43.898+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

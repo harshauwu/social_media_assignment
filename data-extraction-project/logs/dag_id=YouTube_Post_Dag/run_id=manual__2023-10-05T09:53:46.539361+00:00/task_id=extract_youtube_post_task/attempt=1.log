@@ -1,0 +1,23 @@
+[2023-10-05T09:53:50.781+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: YouTube_Post_Dag.extract_youtube_post_task manual__2023-10-05T09:53:46.539361+00:00 [queued]>
+[2023-10-05T09:53:50.809+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: YouTube_Post_Dag.extract_youtube_post_task manual__2023-10-05T09:53:46.539361+00:00 [queued]>
+[2023-10-05T09:53:50.814+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-05T09:53:50.856+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_youtube_post_task> on 2023-10-05 09:53:46.539361+00:00
+[2023-10-05T09:53:50.876+0000] {standard_task_runner.py:57} INFO - Started process 249 to run task
+[2023-10-05T09:53:50.902+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'YouTube_Post_Dag', 'extract_youtube_post_task', 'manual__2023-10-05T09:53:46.539361+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/youTube_video_data_dag.py', '--cfg-path', '/tmp/tmp30vatnsz']
+[2023-10-05T09:53:50.910+0000] {standard_task_runner.py:85} INFO - Job 89: Subtask extract_youtube_post_task
+[2023-10-05T09:53:51.021+0000] {task_command.py:415} INFO - Running <TaskInstance: YouTube_Post_Dag.extract_youtube_post_task manual__2023-10-05T09:53:46.539361+00:00 [running]> on host bdf8a93b58be
+[2023-10-05T09:53:51.194+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='YouTube_Post_Dag' AIRFLOW_CTX_TASK_ID='extract_youtube_post_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-05T09:53:46.539361+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-05T09:53:46.539361+00:00'
+[2023-10-05T09:53:51.204+0000] {__init__.py:49} INFO - file_cache is only supported with oauth2client<4.0.0
+[2023-10-05T09:53:52.962+0000] {logging_mixin.py:151} INFO - ['Y-5MhSMU8z8', 'x3C9cE3-luU', 'v39Y0JaWd-4', '-J7WRqum_H8', 'D4PEzsvUq9g']
+[2023-10-05T09:53:54.840+0000] {logging_mixin.py:151} INFO -                                                title  ...    durations
+0  Full Energy New Day With Starbucks Coffee Musi...  ...          P0D
+1  Elegant Starbucks Cafe Music - Starbucks Music...  ...       P1DT1S
+2  Starbucks BGM 2024 : Positive Jazz Music with ...  ...  PT11H54M57S
+3  Starbucks Coffee Music & Jazz Relaxing Music -...  ...          P0D
+4  Happy October Jazz - Relaxing Morning Starbuck...  ...          P1D
+
+[5 rows x 7 columns]
+[2023-10-05T09:53:54.878+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-05T09:53:54.917+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=YouTube_Post_Dag, task_id=extract_youtube_post_task, execution_date=20231005T095346, start_date=20231005T095350, end_date=20231005T095354
+[2023-10-05T09:53:54.987+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-05T09:53:55.065+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,111 @@
+[2023-10-05T06:44:55.900+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Reddit_Post_Comment_Dag.extract_post_comment_task manual__2023-10-05T06:44:43.227282+00:00 [queued]>
+[2023-10-05T06:44:55.929+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Reddit_Post_Comment_Dag.extract_post_comment_task manual__2023-10-05T06:44:43.227282+00:00 [queued]>
+[2023-10-05T06:44:55.931+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-05T06:44:55.968+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_post_comment_task> on 2023-10-05 06:44:43.227282+00:00
+[2023-10-05T06:44:55.991+0000] {standard_task_runner.py:57} INFO - Started process 107 to run task
+[2023-10-05T06:44:56.003+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Reddit_Post_Comment_Dag', 'extract_post_comment_task', 'manual__2023-10-05T06:44:43.227282+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/reddit_post_comment_dag.py', '--cfg-path', '/tmp/tmpnm5kpf1e']
+[2023-10-05T06:44:56.010+0000] {standard_task_runner.py:85} INFO - Job 65: Subtask extract_post_comment_task
+[2023-10-05T06:44:56.112+0000] {task_command.py:415} INFO - Running <TaskInstance: Reddit_Post_Comment_Dag.extract_post_comment_task manual__2023-10-05T06:44:43.227282+00:00 [running]> on host 44d08be4c1e6
+[2023-10-05T06:44:56.247+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Reddit_Post_Comment_Dag' AIRFLOW_CTX_TASK_ID='extract_post_comment_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-05T06:44:43.227282+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-05T06:44:43.227282+00:00'
+[2023-10-05T06:44:58.392+0000] {logging_mixin.py:151} INFO - ha1lmxv
+[2023-10-05T06:44:58.818+0000] {logging_mixin.py:151} INFO - ha1skg4
+[2023-10-05T06:44:59.223+0000] {logging_mixin.py:151} INFO - ha2993t
+[2023-10-05T06:44:59.637+0000] {logging_mixin.py:151} INFO - ha18y6u
+[2023-10-05T06:45:00.042+0000] {logging_mixin.py:151} INFO - ha2rq7g
+[2023-10-05T06:45:00.497+0000] {logging_mixin.py:151} INFO - ha29nkq
+[2023-10-05T06:45:00.969+0000] {logging_mixin.py:151} INFO - ha1habz
+[2023-10-05T06:45:01.482+0000] {logging_mixin.py:151} INFO - ha1il5j
+[2023-10-05T06:45:01.894+0000] {logging_mixin.py:151} INFO - ha1qx1r
+[2023-10-05T06:45:02.296+0000] {logging_mixin.py:151} INFO - ha2y9df
+[2023-10-05T06:45:02.710+0000] {logging_mixin.py:151} INFO - ha2n8fs
+[2023-10-05T06:45:03.120+0000] {logging_mixin.py:151} INFO - ha26yrj
+[2023-10-05T06:45:03.497+0000] {logging_mixin.py:151} INFO - ha1d7w3
+[2023-10-05T06:45:03.898+0000] {logging_mixin.py:151} INFO - ha331ib
+[2023-10-05T06:45:04.278+0000] {logging_mixin.py:151} INFO - ha1p714
+[2023-10-05T06:45:04.843+0000] {logging_mixin.py:151} INFO - ha2uaeq
+[2023-10-05T06:45:05.982+0000] {logging_mixin.py:151} INFO - ha33nl8
+[2023-10-05T06:45:06.378+0000] {logging_mixin.py:151} INFO - ha38yux
+[2023-10-05T06:45:06.739+0000] {logging_mixin.py:151} INFO - ha2b3eh
+[2023-10-05T06:45:07.150+0000] {logging_mixin.py:151} INFO - ha4qn1x
+[2023-10-05T06:45:07.685+0000] {logging_mixin.py:151} INFO - ha227dm
+[2023-10-05T06:45:08.139+0000] {logging_mixin.py:151} INFO - ha8z9f8
+[2023-10-05T06:45:08.496+0000] {logging_mixin.py:151} INFO - ha3swke
+[2023-10-05T06:45:08.960+0000] {logging_mixin.py:151} INFO - ha48t2y
+[2023-10-05T06:45:09.342+0000] {logging_mixin.py:151} INFO - ha2cdsj
+[2023-10-05T06:45:09.782+0000] {logging_mixin.py:151} INFO - ha2e5ra
+[2023-10-05T06:45:10.212+0000] {logging_mixin.py:151} INFO - ha54k3s
+[2023-10-05T06:45:10.882+0000] {logging_mixin.py:151} INFO - ha2y1xt
+[2023-10-05T06:45:11.260+0000] {logging_mixin.py:151} INFO - ha3wc2n
+[2023-10-05T06:45:11.728+0000] {logging_mixin.py:151} INFO - ha422nb
+[2023-10-05T06:45:12.154+0000] {logging_mixin.py:151} INFO - ha3686t
+[2023-10-05T06:45:12.585+0000] {logging_mixin.py:151} INFO - ha7f9yw
+[2023-10-05T06:45:12.973+0000] {logging_mixin.py:151} INFO - hac31t2
+[2023-10-05T06:45:13.469+0000] {logging_mixin.py:151} INFO - ha3t5wr
+[2023-10-05T06:45:13.864+0000] {logging_mixin.py:151} INFO - ha4cklr
+[2023-10-05T06:45:14.245+0000] {logging_mixin.py:151} INFO - ha4kvul
+[2023-10-05T06:45:14.674+0000] {logging_mixin.py:151} INFO - hoa63ag
+[2023-10-05T06:45:15.060+0000] {logging_mixin.py:151} INFO - ha4eh2i
+[2023-10-05T06:45:15.499+0000] {logging_mixin.py:151} INFO - ha45bsw
+[2023-10-05T06:45:15.913+0000] {logging_mixin.py:151} INFO - ha4428a
+[2023-10-05T06:45:16.627+0000] {logging_mixin.py:151} INFO - havqo31
+[2023-10-05T06:45:17.155+0000] {logging_mixin.py:151} INFO - hblddxi
+[2023-10-05T06:45:17.629+0000] {logging_mixin.py:151} INFO - hdwy8ux
+[2023-10-05T06:45:18.380+0000] {logging_mixin.py:151} INFO - hgxrljp
+[2023-10-05T06:45:18.985+0000] {logging_mixin.py:151} INFO - hrkjloc
+[2023-10-05T06:45:19.390+0000] {logging_mixin.py:151} INFO - jzce8sy
+[2023-10-05T06:45:19.776+0000] {logging_mixin.py:151} INFO - ha31zy3
+[2023-10-05T06:45:20.211+0000] {logging_mixin.py:151} INFO - ha2nh0y
+[2023-10-05T06:45:20.599+0000] {logging_mixin.py:151} INFO - ha33vxp
+[2023-10-05T06:45:21.130+0000] {logging_mixin.py:151} INFO - ha2a0g8
+[2023-10-05T06:45:21.545+0000] {logging_mixin.py:151} INFO - ha3ob09
+[2023-10-05T06:45:22.055+0000] {logging_mixin.py:151} INFO - ha3ugpr
+[2023-10-05T06:45:22.424+0000] {logging_mixin.py:151} INFO - ha2ah2t
+[2023-10-05T06:45:22.805+0000] {logging_mixin.py:151} INFO - ha4draq
+[2023-10-05T06:45:23.217+0000] {logging_mixin.py:151} INFO - ha2zd72
+[2023-10-05T06:45:23.600+0000] {logging_mixin.py:151} INFO - ha7q9cr
+[2023-10-05T06:45:23.981+0000] {logging_mixin.py:151} INFO - ha30rk6
+[2023-10-05T06:45:24.397+0000] {logging_mixin.py:151} INFO - ha2etmk
+[2023-10-05T06:45:24.781+0000] {logging_mixin.py:151} INFO - ha419n7
+[2023-10-05T06:45:25.173+0000] {logging_mixin.py:151} INFO - ha392r2
+[2023-10-05T06:45:25.600+0000] {logging_mixin.py:151} INFO - ha39fya
+[2023-10-05T06:45:25.953+0000] {logging_mixin.py:151} INFO - ha2ruiw
+[2023-10-05T06:45:26.336+0000] {logging_mixin.py:151} INFO - ha5mguh
+[2023-10-05T06:45:26.698+0000] {logging_mixin.py:151} INFO - ha4kwqh
+[2023-10-05T06:45:27.183+0000] {logging_mixin.py:151} INFO - hdzdnz7
+[2023-10-05T06:45:27.557+0000] {logging_mixin.py:151} INFO - ha799gq
+[2023-10-05T06:45:28.001+0000] {logging_mixin.py:151} INFO - ha44ess
+[2023-10-05T06:45:28.404+0000] {logging_mixin.py:151} INFO - ha5siuq
+[2023-10-05T06:45:28.816+0000] {logging_mixin.py:151} INFO - ha6eg0z
+[2023-10-05T06:45:29.320+0000] {logging_mixin.py:151} INFO - ha4nxzp
+[2023-10-05T06:45:29.845+0000] {logging_mixin.py:151} INFO - ha4dql8
+[2023-10-05T06:45:30.230+0000] {logging_mixin.py:151} INFO - ha32lpv
+[2023-10-05T06:45:30.605+0000] {logging_mixin.py:151} INFO - ha2fl12
+[2023-10-05T06:45:31.069+0000] {logging_mixin.py:151} INFO - ha3btkg
+[2023-10-05T06:45:31.485+0000] {logging_mixin.py:151} INFO - hcdwmic
+[2023-10-05T06:45:31.995+0000] {logging_mixin.py:151} INFO - hihfd8b
+[2023-10-05T06:45:32.379+0000] {logging_mixin.py:151} INFO - ha7i6xj
+[2023-10-05T06:45:32.785+0000] {logging_mixin.py:151} INFO - hb512wv
+[2023-10-05T06:45:33.221+0000] {logging_mixin.py:151} INFO - ha7pxej
+[2023-10-05T06:45:33.636+0000] {logging_mixin.py:151} INFO - ha8s1kt
+[2023-10-05T06:45:34.121+0000] {logging_mixin.py:151} INFO - ha34cll
+[2023-10-05T06:45:34.520+0000] {logging_mixin.py:151} INFO - ha2lwte
+[2023-10-05T06:45:34.987+0000] {logging_mixin.py:151} INFO - ha3fldl
+[2023-10-05T06:45:35.480+0000] {logging_mixin.py:151} INFO - ha42fc5
+[2023-10-05T06:45:35.961+0000] {logging_mixin.py:151} INFO -    post_id   post_author  ... is_root_comment comment_author_flair_text
+0   pa07hq  annaplatt411  ...            True         :Barista: Barista
+1   pa07hq  annaplatt411  ...            True            Former Partner
+2   pa07hq  annaplatt411  ...            True                      None
+3   pa07hq  annaplatt411  ...            True                      None
+4   pa07hq  annaplatt411  ...            True        :CM: Coffee Master
+..     ...           ...  ...             ...                       ...
+79  pa07hq  annaplatt411  ...           False                      None
+80  pa07hq  annaplatt411  ...           False                      None
+81  pa07hq  annaplatt411  ...           False         :Barista: Barista
+82  pa07hq  annaplatt411  ...           False        :CM: Coffee Master
+83  pa07hq  annaplatt411  ...           False                      None
+
+[84 rows x 10 columns]
+[2023-10-05T06:45:36.001+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-05T06:45:36.015+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Reddit_Post_Comment_Dag, task_id=extract_post_comment_task, execution_date=20231005T064443, start_date=20231005T064455, end_date=20231005T064536
+[2023-10-05T06:45:36.051+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-05T06:45:36.086+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

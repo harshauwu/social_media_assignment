@@ -1,0 +1,23 @@
+version: "3"
+services:
+  social-media-assignment:
+    image: social-media-assignment
+    ports:
+      - 5050:5050
+    networks:
+      - msc-ds-sma-net
+    depends_on:
+      - mysql
+  mysql:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: '43@#$1'
+      MYSQL_DATABASE: social_media_db
+      MYSQL_USER: student
+      MYSQL_PASSWORD: std123
+    networks:
+      - msc-ds-sma-net
+    ports:
+      - "3306:3306"
+networks:
+  msc-ds-sma-net:

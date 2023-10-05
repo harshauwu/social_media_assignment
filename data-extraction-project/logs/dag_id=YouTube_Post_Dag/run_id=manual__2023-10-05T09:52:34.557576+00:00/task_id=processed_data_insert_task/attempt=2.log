@@ -1,0 +1,27 @@
+[2023-10-05T09:53:51.865+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: YouTube_Post_Dag.processed_data_insert_task manual__2023-10-05T09:52:34.557576+00:00 [queued]>
+[2023-10-05T09:53:51.882+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: YouTube_Post_Dag.processed_data_insert_task manual__2023-10-05T09:52:34.557576+00:00 [queued]>
+[2023-10-05T09:53:51.884+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2023-10-05T09:53:51.904+0000] {taskinstance.py:1382} INFO - Executing <Task(YouTubeProcessDataTableOperator): processed_data_insert_task> on 2023-10-05 09:52:34.557576+00:00
+[2023-10-05T09:53:51.914+0000] {standard_task_runner.py:57} INFO - Started process 250 to run task
+[2023-10-05T09:53:51.922+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'YouTube_Post_Dag', 'processed_data_insert_task', 'manual__2023-10-05T09:52:34.557576+00:00', '--job-id', '90', '--raw', '--subdir', 'DAGS_FOLDER/youTube_video_data_dag.py', '--cfg-path', '/tmp/tmp940mq3uq']
+[2023-10-05T09:53:51.928+0000] {standard_task_runner.py:85} INFO - Job 90: Subtask processed_data_insert_task
+[2023-10-05T09:53:52.011+0000] {task_command.py:415} INFO - Running <TaskInstance: YouTube_Post_Dag.processed_data_insert_task manual__2023-10-05T09:52:34.557576+00:00 [running]> on host bdf8a93b58be
+[2023-10-05T09:53:52.114+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='YouTube_Post_Dag' AIRFLOW_CTX_TASK_ID='processed_data_insert_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-05T09:52:34.557576+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-05T09:52:34.557576+00:00'
+[2023-10-05T09:53:52.117+0000] {youTube_process_data_table_operator.py:27} INFO - Executing CustomMySqlOperator with data from task: data_transformation_task
+[2023-10-05T09:53:52.140+0000] {sql.py:274} INFO - Executing: CREATE TABLE IF NOT EXISTS youtube_posts(id INT AUTO_INCREMENT PRIMARY KEY,title VARCHAR(255), view_count INT, like_count INT, comment_count INT, favorite_count INT, duration VARCHAR(255))
+[2023-10-05T09:53:54.214+0000] {base.py:73} INFO - Using connection ID 'mysql_connection' for task execution.
+[2023-10-05T09:53:54.316+0000] {base.py:73} INFO - Using connection ID 'mysql_connection' for task execution.
+[2023-10-05T09:53:54.710+0000] {sql.py:418} INFO - Running statement: CREATE TABLE IF NOT EXISTS youtube_posts(id INT AUTO_INCREMENT PRIMARY KEY,title VARCHAR(255), view_count INT, like_count INT, comment_count INT, favorite_count INT, duration VARCHAR(255)), parameters: None
+[2023-10-05T09:53:55.126+0000] {sql.py:427} INFO - Rows affected: 0
+[2023-10-05T09:53:55.141+0000] {logging_mixin.py:151} INFO - mysql_connection
+[2023-10-05T09:53:55.459+0000] {logging_mixin.py:151} INFO -                                                title  ...    durations
+0  Full Energy New Day With Starbucks Coffee Musi...  ...          P0D
+1  Elegant Starbucks Cafe Music - Starbucks Music...  ...       P1DT1S
+2  Starbucks BGM 2024 : Positive Jazz Music with ...  ...  PT11H54M57S
+3  Starbucks Coffee Music & Jazz Relaxing Music -...  ...          P0D
+4  Happy October Jazz - Relaxing Morning Starbuck...  ...          P1D
+
+[5 rows x 7 columns]
+[2023-10-05T09:53:55.951+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=YouTube_Post_Dag, task_id=processed_data_insert_task, execution_date=20231005T095234, start_date=20231005T095351, end_date=20231005T095355
+[2023-10-05T09:53:56.045+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-05T09:53:56.107+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

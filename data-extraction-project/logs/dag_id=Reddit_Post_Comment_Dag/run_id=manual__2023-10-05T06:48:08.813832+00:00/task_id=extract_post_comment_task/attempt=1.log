@@ -1,0 +1,64 @@
+[2023-10-05T06:48:16.000+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Reddit_Post_Comment_Dag.extract_post_comment_task manual__2023-10-05T06:48:08.813832+00:00 [queued]>
+[2023-10-05T06:48:16.014+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Reddit_Post_Comment_Dag.extract_post_comment_task manual__2023-10-05T06:48:08.813832+00:00 [queued]>
+[2023-10-05T06:48:16.016+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-05T06:48:16.034+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_post_comment_task> on 2023-10-05 06:48:08.813832+00:00
+[2023-10-05T06:48:16.048+0000] {standard_task_runner.py:57} INFO - Started process 185 to run task
+[2023-10-05T06:48:16.061+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Reddit_Post_Comment_Dag', 'extract_post_comment_task', 'manual__2023-10-05T06:48:08.813832+00:00', '--job-id', '70', '--raw', '--subdir', 'DAGS_FOLDER/reddit_post_comment_dag.py', '--cfg-path', '/tmp/tmp6fmrwgy5']
+[2023-10-05T06:48:16.069+0000] {standard_task_runner.py:85} INFO - Job 70: Subtask extract_post_comment_task
+[2023-10-05T06:48:16.165+0000] {task_command.py:415} INFO - Running <TaskInstance: Reddit_Post_Comment_Dag.extract_post_comment_task manual__2023-10-05T06:48:08.813832+00:00 [running]> on host 44d08be4c1e6
+[2023-10-05T06:48:16.279+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Reddit_Post_Comment_Dag' AIRFLOW_CTX_TASK_ID='extract_post_comment_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-05T06:48:08.813832+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-05T06:48:08.813832+00:00'
+[2023-10-05T06:48:17.606+0000] {logging_mixin.py:151} INFO - e394x3f
+[2023-10-05T06:48:17.964+0000] {logging_mixin.py:151} INFO - e39bjg1
+[2023-10-05T06:48:18.495+0000] {logging_mixin.py:151} INFO - e39djei
+[2023-10-05T06:48:18.851+0000] {logging_mixin.py:151} INFO - e397yak
+[2023-10-05T06:48:19.219+0000] {logging_mixin.py:151} INFO - e396cxa
+[2023-10-05T06:48:19.648+0000] {logging_mixin.py:151} INFO - e39kgo8
+[2023-10-05T06:48:20.158+0000] {logging_mixin.py:151} INFO - e39i2g6
+[2023-10-05T06:48:20.541+0000] {logging_mixin.py:151} INFO - e3989ym
+[2023-10-05T06:48:20.924+0000] {logging_mixin.py:151} INFO - e39e2rk
+[2023-10-05T06:48:21.853+0000] {logging_mixin.py:151} INFO - e39rptt
+[2023-10-05T06:48:22.230+0000] {logging_mixin.py:151} INFO - e3ajiqw
+[2023-10-05T06:48:22.609+0000] {logging_mixin.py:151} INFO - e39k6pu
+[2023-10-05T06:48:22.986+0000] {logging_mixin.py:151} INFO - e39j1vl
+[2023-10-05T06:48:23.366+0000] {logging_mixin.py:151} INFO - e3b6kl7
+[2023-10-05T06:48:23.756+0000] {logging_mixin.py:151} INFO - e39ki1k
+[2023-10-05T06:48:24.125+0000] {logging_mixin.py:151} INFO - e39jpby
+[2023-10-05T06:48:24.532+0000] {logging_mixin.py:151} INFO - e3b6u2p
+[2023-10-05T06:48:24.963+0000] {logging_mixin.py:151} INFO - e39kl1g
+[2023-10-05T06:48:25.464+0000] {logging_mixin.py:151} INFO - e39jr0y
+[2023-10-05T06:48:25.872+0000] {logging_mixin.py:151} INFO - e39kuw2
+[2023-10-05T06:48:26.285+0000] {logging_mixin.py:151} INFO - e39jtj9
+[2023-10-05T06:48:26.692+0000] {logging_mixin.py:151} INFO - e39jutt
+[2023-10-05T06:48:27.081+0000] {logging_mixin.py:151} INFO - e39jz0s
+[2023-10-05T06:48:27.479+0000] {logging_mixin.py:151} INFO - e39k022
+[2023-10-05T06:48:27.922+0000] {logging_mixin.py:151} INFO -    post_id    post_author  ... is_root_comment comment_author_flair_text
+0   92x3p6  SeriousStarbs  ...            True                      None
+1   92x3p6  SeriousStarbs  ...            True            Former Partner
+2   92x3p6  SeriousStarbs  ...            True                      None
+3   92x3p6  SeriousStarbs  ...            True                      None
+4   92x3p6  SeriousStarbs  ...            True                      None
+5   92x3p6  SeriousStarbs  ...            True        :CM: Coffee Master
+6   92x3p6  SeriousStarbs  ...            True                   Barista
+7   92x3p6  SeriousStarbs  ...            True                Supervisor
+8   92x3p6  SeriousStarbs  ...            True                      None
+9   92x3p6  SeriousStarbs  ...            True                      None
+10  92x3p6  SeriousStarbs  ...            True                   Barista
+11  92x3p6  SeriousStarbs  ...           False      :Barista: Supervisor
+12  92x3p6  SeriousStarbs  ...           False                   Barista
+13  92x3p6  SeriousStarbs  ...           False                      None
+14  92x3p6  SeriousStarbs  ...           False            Former Partner
+15  92x3p6  SeriousStarbs  ...           False            Former Partner
+16  92x3p6  SeriousStarbs  ...           False                      None
+17  92x3p6  SeriousStarbs  ...           False      :Barista: Supervisor
+18  92x3p6  SeriousStarbs  ...           False                   Barista
+19  92x3p6  SeriousStarbs  ...           False            Former Partner
+20  92x3p6  SeriousStarbs  ...           False            Former Partner
+21  92x3p6  SeriousStarbs  ...           False                   Barista
+22  92x3p6  SeriousStarbs  ...           False            Former Partner
+23  92x3p6  SeriousStarbs  ...           False                   Barista
+
+[24 rows x 10 columns]
+[2023-10-05T06:48:27.958+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-05T06:48:27.972+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Reddit_Post_Comment_Dag, task_id=extract_post_comment_task, execution_date=20231005T064808, start_date=20231005T064816, end_date=20231005T064827
+[2023-10-05T06:48:28.006+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-05T06:48:28.040+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check
