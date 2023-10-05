@@ -1,5 +1,6 @@
 import praw
 import pandas as pd
+import googleapiclient.discovery
 
 def extract_post_data(**kwargs):
     ti = kwargs['ti'] 
@@ -119,3 +120,42 @@ def extract_post_comment(**kwargs):
     df.to_csv(csv_file_path, index=False)
 
     ti.xcom_push(key='reddit_post_comment_raw_data', value=csv_file_path)
+    
+
+def extract_reddit_starbucks_details(**kwargs):    
+    ti = kwargs['ti']
+    try:
+        # Creating a Reddit object with the required parameters
+        reddit = praw.Reddit(
+            client_id='izlVfPwECjziab_rpf2D_A',
+            client_secret='LhjN-wepGfUncebvFygM2gVlOxRPBw',
+            redirect_uri="http://localhost:8080",
+            user_agent="testscript by u/fakebot3",
+        )
+       
+        subreddit = reddit.subreddit('starbucks')
+        details = {
+            'social_media_platform' : 'Reddit',
+            'description' : subreddit.description,      # Sidebar text
+            'display_name' : subreddit.display_name,    # Human name of the subreddit
+            'image' : subreddit.header_img,             # Full URL to the header image, or null
+            'subscribers' : subreddit.subscribers,          # The number of Redditors subscribed to this subreddit
+            'title' : subreddit.title,                      # Title of the main page
+            'url' : subreddit.url,  
+        }
+
+        posts_df = pd.DataFrame([details])    
+        print(posts_df)
+
+        # Specify the path where you want to save the CSV file
+        csv_file_path = "/home/airflow/reddit_starbucks_details.csv"
+        
+        # Write the DataFrame to a CSV file
+        posts_df.to_csv(csv_file_path, index=False)
+
+        ti.xcom_push(key='starbucks_data', value=csv_file_path)
+
+    except Exception as e:
+        # Handle the exception here (e.g., log it, send an alert, etc.)
+        print(f"An error occurred in initial_data_transformation: {str(e)}")
+        raise e    

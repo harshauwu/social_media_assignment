@@ -8,6 +8,7 @@ from flask_sqlalchemy import SQLAlchemy
 # Create a Flask app
 app = Flask(__name__)
 
+print(SQLALCHEMY_DATABASE_URI)
 
 # Configure the app with the database settings from config.py
 app.config['SQLALCHEMY_DATABASE_URI'] = SQLALCHEMY_DATABASE_URI

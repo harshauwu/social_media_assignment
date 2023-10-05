@@ -10,11 +10,11 @@ def save_post(data):
     try:
         # Create a new SchedulePost object
         new_post = SchedulePost(
-            title=data.title,
-            url="https://example.com",
-            body=data.text,
-            created_at=datetime.utcnow(),  # Use the current UTC time
-            updated_at=datetime.utcnow(),  # Use the current UTC time
+            title = data["title"],
+            url = "https://example.com",
+            body = data['text'],
+            created_at = datetime.utcnow(),  # Use the current UTC time
+            updated_at = datetime.utcnow(),  # Use the current UTC time
         )
         # Add the new_post to the session and commit it to the database
         db.session.add(new_post)

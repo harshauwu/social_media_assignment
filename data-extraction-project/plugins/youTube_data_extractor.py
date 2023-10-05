@@ -75,3 +75,52 @@ def extract_video_data(**kwargs):
     df.to_csv(csv_file_path, index=False)
 
     ti.xcom_push(key='youTube_vide_raw_data', value=csv_file_path)
+
+
+def extract_youtube_starbucks_details(**kwargs):
+    ti = kwargs['ti']
+    try:
+        # Set your API key here
+        api_key = 'AIzaSyDqo_SDsaZimlGsa7QUdl47yBMArVqKUTA'
+
+        # Create a YouTube Data API client
+        youtube = googleapiclient.discovery.build('youtube', 'v3', developerKey=api_key)
+
+        # Define the channelId of the YouTube channel you want to fetch details for
+        channel_id = 'UCucZ0dYXTXLs66eKo98ujmg'
+
+        # Request channel details
+        channel_response = youtube.channels().list(
+            part='snippet,statistics',
+            id=channel_id
+        ).execute()
+
+        # Extract channel details from the response
+        channel_info = channel_response['items'][0]
+
+
+        # Extract relevant details such as title, name, and number of subscribers
+        details = {
+            'title' : channel_info['snippet']['title'],
+            'display_name' : channel_info['snippet']['customUrl'],  # Use 'customUrl' to get the channel name (if available)
+            'subscribers' : channel_info['statistics']['subscriberCount'],
+            'social_media_platform' :  'YouTube',
+            'description' : '',
+            'image' : ''
+        }
+
+        posts_df = pd.DataFrame([details])    
+        print(posts_df)
+
+        # Specify the path where you want to save the CSV file
+        csv_file_path = "/home/airflow/youtube_starbucks_details.csv"
+        
+        # Write the DataFrame to a CSV file
+        posts_df.to_csv(csv_file_path, index=False)
+
+        ti.xcom_push(key='starbucks_data', value=csv_file_path)
+        
+    except Exception as e:
+        # Handle the exception here (e.g., log it, send an alert, etc.)
+        print(f"An error occurred in initial_data_transformation: {str(e)}")
+        raise e  

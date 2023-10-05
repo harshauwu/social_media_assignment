@@ -29,3 +29,13 @@ def fetch_analyze_sentiment():
 def fetch_predictive_likes():
     predictive_likes = post_controller.get_predict_likes()
     return predictive_likes
+
+@reddit_routes.route('/reddit-details', methods=['GET'])
+def fetch_reddit_details():
+    reddit_details = social_media_controller.get_reddit_details()
+    return reddit_details
+
+@reddit_routes.route('/youtube-details', methods=['GET'])
+def fetch_youtube_details():
+    reddit_details = social_media_controller.get_youtube_details()
+    return reddit_details
