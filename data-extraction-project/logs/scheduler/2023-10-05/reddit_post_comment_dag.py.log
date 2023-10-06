@@ -7776,3 +7776,701 @@ ImportError: cannot import name 'ProcessCommentDataTableOperator' from 'process_
 [2023-10-05T15:54:07.107+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:54:07.107+0000] {dag.py:2907} INFO - Sync 1 DAGs
 [2023-10-05T15:54:07.126+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:54:07.125+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
 [2023-10-05T15:54:07.165+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.157 seconds
+[2023-10-05T15:54:37.642+0000] {processor.py:157} INFO - Started process (PID=946) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:54:37.644+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T15:54:37.650+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:54:37.649+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:54:37.710+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:54:37.737+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:54:37.737+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T15:54:37.781+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:54:37.780+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T15:54:37.814+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.177 seconds
+[2023-10-05T15:55:08.390+0000] {processor.py:157} INFO - Started process (PID=958) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:55:08.393+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T15:55:08.400+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:55:08.399+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:55:08.452+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:55:08.478+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:55:08.478+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T15:55:08.498+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:55:08.498+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T15:55:08.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.152 seconds
+[2023-10-05T15:55:39.065+0000] {processor.py:157} INFO - Started process (PID=970) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:55:39.069+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T15:55:39.075+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:55:39.075+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:55:39.125+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:55:39.149+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:55:39.148+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T15:55:39.170+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:55:39.170+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T15:55:39.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.136 seconds
+[2023-10-05T15:56:09.730+0000] {processor.py:157} INFO - Started process (PID=982) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:56:09.734+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T15:56:09.739+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:56:09.739+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:56:09.805+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:56:09.832+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:56:09.832+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T15:56:09.859+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:56:09.859+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T15:56:09.903+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.180 seconds
+[2023-10-05T15:56:40.168+0000] {processor.py:157} INFO - Started process (PID=994) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:56:40.171+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T15:56:40.182+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:56:40.181+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:56:40.239+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:56:40.262+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:56:40.262+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T15:56:40.281+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:56:40.281+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T15:56:40.310+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.151 seconds
+[2023-10-05T15:57:10.721+0000] {processor.py:157} INFO - Started process (PID=1007) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:57:10.725+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T15:57:10.730+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:57:10.730+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:57:10.782+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:57:10.807+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:57:10.806+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T15:57:10.828+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:57:10.827+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T15:57:10.862+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.146 seconds
+[2023-10-05T15:57:41.402+0000] {processor.py:157} INFO - Started process (PID=1019) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:57:41.404+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T15:57:41.410+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:57:41.409+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:57:41.464+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:57:41.492+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:57:41.491+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T15:57:41.512+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:57:41.512+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T15:57:41.542+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.147 seconds
+[2023-10-05T15:58:12.031+0000] {processor.py:157} INFO - Started process (PID=1031) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:58:12.033+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T15:58:12.039+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:58:12.038+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:58:12.094+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:58:12.118+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:58:12.117+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T15:58:12.140+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:58:12.140+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T15:58:12.181+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.156 seconds
+[2023-10-05T15:58:42.719+0000] {processor.py:157} INFO - Started process (PID=1043) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:58:42.722+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T15:58:42.729+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:58:42.728+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:58:42.778+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:58:42.802+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:58:42.802+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T15:58:42.822+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:58:42.821+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T15:58:42.854+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.140 seconds
+[2023-10-05T15:59:13.452+0000] {processor.py:157} INFO - Started process (PID=1055) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:59:13.459+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T15:59:13.469+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:59:13.468+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:59:13.537+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:59:13.563+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:59:13.563+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T15:59:13.585+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:59:13.585+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T15:59:13.621+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.182 seconds
+[2023-10-05T15:59:44.131+0000] {processor.py:157} INFO - Started process (PID=1067) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:59:44.135+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T15:59:44.140+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:59:44.140+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:59:44.193+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T15:59:44.217+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:59:44.217+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T15:59:44.239+0000] {logging_mixin.py:151} INFO - [2023-10-05T15:59:44.239+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T15:59:44.269+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.145 seconds
+[2023-10-05T16:00:14.822+0000] {processor.py:157} INFO - Started process (PID=1079) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:00:14.825+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:00:14.845+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:00:14.844+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:00:14.932+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:00:14.968+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:00:14.968+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:00:14.995+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:00:14.995+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:00:15.045+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.231 seconds
+[2023-10-05T16:00:45.494+0000] {processor.py:157} INFO - Started process (PID=1091) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:00:45.497+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:00:45.504+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:00:45.503+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:00:45.590+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:00:45.647+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:00:45.646+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:00:45.688+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:00:45.688+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:00:45.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.261 seconds
+[2023-10-05T16:01:16.270+0000] {processor.py:157} INFO - Started process (PID=1104) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:01:16.273+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:01:16.280+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:01:16.280+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:01:16.327+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:01:16.351+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:01:16.351+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:01:16.371+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:01:16.371+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:01:16.404+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.139 seconds
+[2023-10-05T16:01:47.186+0000] {processor.py:157} INFO - Started process (PID=1116) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:01:47.189+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:01:47.196+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:01:47.195+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:01:47.256+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:01:47.287+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:01:47.286+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:01:47.318+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:01:47.318+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:01:47.355+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.177 seconds
+[2023-10-05T16:02:17.900+0000] {processor.py:157} INFO - Started process (PID=1128) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:02:17.904+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:02:17.913+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:02:17.912+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:02:17.991+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:02:18.036+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:02:18.035+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:02:18.091+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:02:18.090+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:02:18.149+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.261 seconds
+[2023-10-05T16:02:48.552+0000] {processor.py:157} INFO - Started process (PID=1140) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:02:48.557+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:02:48.567+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:02:48.566+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:02:48.644+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:02:48.686+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:02:48.685+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:02:48.722+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:02:48.722+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:02:48.759+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.216 seconds
+[2023-10-05T16:03:19.322+0000] {processor.py:157} INFO - Started process (PID=1152) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:03:19.325+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:03:19.338+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:03:19.337+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:03:19.404+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:03:19.444+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:03:19.443+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:03:19.467+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:03:19.466+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:03:19.509+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.195 seconds
+[2023-10-05T16:03:50.078+0000] {processor.py:157} INFO - Started process (PID=1164) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:03:50.080+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:03:50.090+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:03:50.089+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:03:50.180+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:03:50.226+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:03:50.226+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:03:50.252+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:03:50.252+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:03:50.303+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.233 seconds
+[2023-10-05T16:04:20.776+0000] {processor.py:157} INFO - Started process (PID=1176) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:04:20.778+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:04:20.785+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:04:20.784+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:04:20.843+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:04:20.877+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:04:20.876+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:04:20.904+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:04:20.904+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:04:20.946+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.176 seconds
+[2023-10-05T16:04:51.319+0000] {processor.py:157} INFO - Started process (PID=1189) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:04:51.321+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:04:51.326+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:04:51.326+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:04:51.379+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:04:51.402+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:04:51.402+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:04:51.425+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:04:51.425+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:04:51.461+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.148 seconds
+[2023-10-05T16:05:21.761+0000] {processor.py:157} INFO - Started process (PID=1201) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:05:21.764+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:05:21.769+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:05:21.768+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:05:21.818+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:05:21.855+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:05:21.855+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:05:21.876+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:05:21.876+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:05:21.905+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.150 seconds
+[2023-10-05T16:05:52.404+0000] {processor.py:157} INFO - Started process (PID=1213) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:05:52.406+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:05:52.413+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:05:52.413+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:05:52.461+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:05:52.487+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:05:52.487+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:05:52.518+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:05:52.518+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:05:52.554+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.156 seconds
+[2023-10-05T16:06:23.097+0000] {processor.py:157} INFO - Started process (PID=1225) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:06:23.099+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:06:23.104+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:06:23.103+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:06:23.154+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:06:23.179+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:06:23.178+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:06:23.197+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:06:23.197+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:06:23.230+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.138 seconds
+[2023-10-05T16:06:53.838+0000] {processor.py:157} INFO - Started process (PID=1237) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:06:53.841+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:06:53.848+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:06:53.847+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:06:53.905+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:06:53.929+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:06:53.929+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:06:53.948+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:06:53.948+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:06:53.980+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.147 seconds
+[2023-10-05T16:07:24.484+0000] {processor.py:157} INFO - Started process (PID=1249) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:07:24.487+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:07:24.492+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:07:24.492+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:07:24.547+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:07:24.572+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:07:24.572+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:07:24.596+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:07:24.596+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:07:24.626+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.148 seconds
+[2023-10-05T16:07:55.164+0000] {processor.py:157} INFO - Started process (PID=1261) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:07:55.166+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:07:55.171+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:07:55.171+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:07:55.218+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:07:55.243+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:07:55.243+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:07:55.268+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:07:55.268+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:07:55.305+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.148 seconds
+[2023-10-05T16:08:25.819+0000] {processor.py:157} INFO - Started process (PID=1273) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:08:25.822+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:08:25.829+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:08:25.829+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:08:25.881+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:08:25.905+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:08:25.905+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:08:25.924+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:08:25.924+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:08:25.955+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.141 seconds
+[2023-10-05T16:08:56.480+0000] {processor.py:157} INFO - Started process (PID=1285) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:08:56.484+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:08:56.492+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:08:56.491+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:08:56.561+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:08:56.593+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:08:56.593+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:08:56.613+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:08:56.613+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:08:56.645+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.171 seconds
+[2023-10-05T16:09:27.183+0000] {processor.py:157} INFO - Started process (PID=1297) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:09:27.186+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:09:27.190+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:09:27.190+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:09:27.254+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:09:27.280+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:09:27.280+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:09:27.302+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:09:27.302+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:09:27.338+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.161 seconds
+[2023-10-05T16:09:57.929+0000] {processor.py:157} INFO - Started process (PID=1309) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:09:57.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:09:57.936+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:09:57.936+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:09:57.989+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:09:58.021+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:09:58.021+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:09:58.044+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:09:58.043+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:09:58.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.174 seconds
+[2023-10-05T16:10:28.654+0000] {processor.py:157} INFO - Started process (PID=1321) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:10:28.657+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:10:28.663+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:10:28.662+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:10:28.716+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:10:28.746+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:10:28.745+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:10:28.766+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:10:28.766+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:10:28.796+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.147 seconds
+[2023-10-05T16:10:59.350+0000] {processor.py:157} INFO - Started process (PID=1333) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:10:59.354+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:10:59.360+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:10:59.360+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:10:59.415+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:10:59.440+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:10:59.440+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:10:59.466+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:10:59.465+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:10:59.507+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.164 seconds
+[2023-10-05T16:11:30.059+0000] {processor.py:157} INFO - Started process (PID=1351) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:11:30.062+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:11:30.069+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:11:30.069+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:11:30.161+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:11:30.212+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:11:30.211+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:11:30.248+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:11:30.247+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:11:30.309+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.259 seconds
+[2023-10-05T16:12:00.889+0000] {processor.py:157} INFO - Started process (PID=1363) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:12:00.893+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:12:00.900+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:12:00.900+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:12:00.951+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:12:00.987+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:12:00.987+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:12:01.010+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:12:01.010+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:12:01.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.159 seconds
+[2023-10-05T16:12:31.571+0000] {processor.py:157} INFO - Started process (PID=1375) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:12:31.573+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:12:31.581+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:12:31.581+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:12:31.638+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:12:31.666+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:12:31.666+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:12:31.690+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:12:31.690+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:12:33.725+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 2.161 seconds
+[2023-10-05T16:13:04.224+0000] {processor.py:157} INFO - Started process (PID=1387) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:13:04.226+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:13:04.232+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:13:04.232+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:13:04.293+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:13:04.322+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:13:04.322+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:13:04.350+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:13:04.349+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:13:04.388+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.169 seconds
+[2023-10-05T16:13:34.935+0000] {processor.py:157} INFO - Started process (PID=1399) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:13:34.937+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:13:34.942+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:13:34.942+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:13:35.002+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:13:35.030+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:13:35.030+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:13:35.053+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:13:35.052+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:13:35.086+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.156 seconds
+[2023-10-05T16:14:05.682+0000] {processor.py:157} INFO - Started process (PID=1411) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:14:05.685+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:14:05.692+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:14:05.691+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:14:05.748+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:14:05.773+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:14:05.773+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:14:05.794+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:14:05.794+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:14:05.827+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.151 seconds
+[2023-10-05T16:14:36.398+0000] {processor.py:157} INFO - Started process (PID=1423) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:14:36.402+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:14:36.429+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:14:36.428+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:14:36.479+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:14:36.506+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:14:36.506+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:14:36.533+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:14:36.532+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:14:36.574+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.181 seconds
+[2023-10-05T16:15:07.088+0000] {processor.py:157} INFO - Started process (PID=1435) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:15:07.090+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:15:07.095+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:15:07.095+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:15:07.145+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:15:07.170+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:15:07.169+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:15:07.189+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:15:07.189+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:15:07.220+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.137 seconds
+[2023-10-05T16:15:37.803+0000] {processor.py:157} INFO - Started process (PID=1447) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:15:37.805+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:15:37.813+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:15:37.813+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:15:37.862+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:15:37.893+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:15:37.892+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:15:37.919+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:15:37.918+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:15:37.961+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.164 seconds
+[2023-10-05T16:22:38.119+0000] {processor.py:157} INFO - Started process (PID=1468) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:22:38.123+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:22:38.131+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:22:38.129+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:22:38.237+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:22:38.296+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:22:38.295+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:22:38.450+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:22:38.449+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:22:38.504+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.413 seconds
+[2023-10-05T16:27:23.073+0000] {processor.py:157} INFO - Started process (PID=1480) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:27:24.099+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:27:24.171+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:27:24.104+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:27:55.328+0000] {processor.py:157} INFO - Started process (PID=1492) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:27:55.332+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:27:55.336+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:27:55.335+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:27:55.390+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:27:55.848+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:27:55.847+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:27:55.866+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:27:55.865+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:27:55.903+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.579 seconds
+[2023-10-05T16:28:26.799+0000] {processor.py:157} INFO - Started process (PID=1513) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:28:26.802+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:28:26.804+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:28:26.804+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:28:26.851+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:28:26.876+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:28:26.876+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:28:26.895+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:28:26.895+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:28:26.926+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.133 seconds
+[2023-10-05T16:28:57.493+0000] {processor.py:157} INFO - Started process (PID=1526) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:28:57.496+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:28:57.499+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:28:57.498+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:28:57.559+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:28:57.590+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:28:57.590+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:28:57.613+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:28:57.612+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:28:57.654+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.171 seconds
+[2023-10-05T16:29:28.269+0000] {processor.py:157} INFO - Started process (PID=1538) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:29:28.272+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:29:28.274+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:29:28.274+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:29:28.319+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:29:28.345+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:29:28.345+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:29:28.366+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:29:28.366+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:29:28.398+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.134 seconds
+[2023-10-05T16:29:58.937+0000] {processor.py:157} INFO - Started process (PID=1550) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:29:58.939+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:29:58.942+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:29:58.942+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:29:58.995+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:29:59.020+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:29:59.019+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:29:59.040+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:29:59.039+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:29:59.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.162 seconds
+[2023-10-05T16:30:29.822+0000] {processor.py:157} INFO - Started process (PID=1562) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:30:29.824+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:30:29.826+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:30:29.826+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:30:29.872+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:30:29.897+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:30:29.896+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:30:29.916+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:30:29.915+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:30:29.946+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.130 seconds
+[2023-10-05T16:31:00.518+0000] {processor.py:157} INFO - Started process (PID=1574) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:31:00.521+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:31:00.523+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:31:00.522+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:31:00.570+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:31:00.605+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:31:00.605+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:31:00.626+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:31:00.625+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:31:00.660+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.149 seconds
+[2023-10-05T16:31:31.322+0000] {processor.py:157} INFO - Started process (PID=1586) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:31:31.324+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:31:31.326+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:31:31.326+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:31:31.371+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:31:31.396+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:31:31.395+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:31:31.416+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:31:31.416+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:31:31.445+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.129 seconds
+[2023-10-05T16:32:02.194+0000] {processor.py:157} INFO - Started process (PID=1598) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:32:02.196+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:32:02.199+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:32:02.198+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:32:02.252+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:32:02.288+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:32:02.288+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:32:02.325+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:32:02.324+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:32:02.359+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.172 seconds
+[2023-10-05T16:32:33.088+0000] {processor.py:157} INFO - Started process (PID=1610) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:32:33.091+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:32:33.094+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:32:33.093+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:32:33.209+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:32:33.263+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:32:33.262+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:32:33.312+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:32:33.311+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:32:33.406+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.325 seconds
+[2023-10-05T16:33:03.951+0000] {processor.py:157} INFO - Started process (PID=1622) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:33:03.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:33:03.963+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:33:03.960+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:33:04.029+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:33:04.075+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:33:04.074+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:33:04.125+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:33:04.124+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:33:04.226+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.291 seconds
+[2023-10-05T16:33:34.949+0000] {processor.py:157} INFO - Started process (PID=1634) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:33:34.954+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:33:34.959+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:33:34.958+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:33:35.068+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:33:35.140+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:33:35.140+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:33:35.185+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:33:35.185+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:33:35.236+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.295 seconds
+[2023-10-05T16:34:06.303+0000] {processor.py:157} INFO - Started process (PID=1646) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:34:06.313+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:34:06.318+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:34:06.317+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:34:06.423+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:34:06.457+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:34:06.456+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:34:06.481+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:34:06.481+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:34:06.519+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.232 seconds
+[2023-10-05T16:34:37.052+0000] {processor.py:157} INFO - Started process (PID=1658) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:34:37.054+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:34:37.056+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:34:37.056+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:34:37.116+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:34:37.148+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:34:37.148+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:34:37.171+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:34:37.171+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:34:37.207+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.161 seconds
+[2023-10-05T16:35:07.937+0000] {processor.py:157} INFO - Started process (PID=1670) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:35:07.942+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:35:07.944+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:35:07.943+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:35:07.998+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:35:08.033+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:35:08.032+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:35:08.056+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:35:08.055+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:35:08.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.164 seconds
+[2023-10-05T16:35:38.690+0000] {processor.py:157} INFO - Started process (PID=1681) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:35:38.693+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:35:38.695+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:35:38.694+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:35:38.738+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:35:38.764+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:35:38.763+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:35:38.785+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:35:38.785+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:35:38.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.132 seconds
+[2023-10-05T16:36:09.358+0000] {processor.py:157} INFO - Started process (PID=1693) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:36:09.361+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:36:09.363+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:36:09.363+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:36:09.407+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:36:09.431+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:36:09.430+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:36:09.465+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:36:09.465+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:36:09.499+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.146 seconds
+[2023-10-05T16:36:40.060+0000] {processor.py:157} INFO - Started process (PID=1705) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:36:40.063+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:36:40.066+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:36:40.065+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:36:40.108+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:36:40.134+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:36:40.133+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:36:40.157+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:36:40.156+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:36:40.191+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.137 seconds
+[2023-10-05T16:37:10.745+0000] {processor.py:157} INFO - Started process (PID=1716) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:37:10.748+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:37:10.751+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:37:10.750+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:37:10.801+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:37:10.839+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:37:10.839+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:37:10.864+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:37:10.864+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:37:10.907+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.178 seconds
+[2023-10-05T16:37:41.686+0000] {processor.py:157} INFO - Started process (PID=1727) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:37:41.688+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:37:41.692+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:37:41.691+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:37:41.739+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:37:41.765+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:37:41.765+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:37:41.784+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:37:41.784+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:37:41.819+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.139 seconds
+[2023-10-05T16:38:12.391+0000] {processor.py:157} INFO - Started process (PID=1739) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:38:12.393+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:38:12.396+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:38:12.396+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:38:12.442+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:38:12.466+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:38:12.466+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:38:12.485+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:38:12.484+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:38:12.512+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.126 seconds
+[2023-10-05T16:38:43.067+0000] {processor.py:157} INFO - Started process (PID=1751) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:38:43.071+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:38:43.074+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:38:43.073+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:38:43.118+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:38:43.149+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:38:43.149+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:38:43.174+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:38:43.174+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:38:43.209+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.150 seconds
+[2023-10-05T16:39:13.772+0000] {processor.py:157} INFO - Started process (PID=1763) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:39:13.775+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:39:13.777+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:39:13.777+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:39:13.822+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:39:13.850+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:39:13.850+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:39:13.868+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:39:13.868+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:39:13.902+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.136 seconds
+[2023-10-05T16:39:44.551+0000] {processor.py:157} INFO - Started process (PID=1775) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:39:44.553+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:39:44.555+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:39:44.555+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:39:44.599+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:39:44.624+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:39:44.624+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:39:44.642+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:39:44.642+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:39:44.671+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.126 seconds
+[2023-10-05T16:40:15.362+0000] {processor.py:157} INFO - Started process (PID=1787) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:40:15.364+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:40:15.366+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:40:15.365+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:40:15.411+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:40:15.435+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:40:15.434+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:40:15.453+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:40:15.452+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:40:15.483+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.127 seconds
+[2023-10-05T16:40:46.132+0000] {processor.py:157} INFO - Started process (PID=1799) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:40:46.135+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:40:46.138+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:40:46.138+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:40:46.193+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:40:46.231+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:40:46.230+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:40:46.262+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:40:46.261+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:40:46.308+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.184 seconds
+[2023-10-05T16:41:16.849+0000] {processor.py:157} INFO - Started process (PID=1811) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:41:16.852+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:41:16.856+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:41:16.855+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:41:16.903+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:41:16.931+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:41:16.931+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:41:16.952+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:41:16.951+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:41:16.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.154 seconds
+[2023-10-05T16:41:47.704+0000] {processor.py:157} INFO - Started process (PID=1823) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:41:47.707+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:41:47.710+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:41:47.709+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:41:47.758+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:41:47.786+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:41:47.786+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:41:47.806+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:41:47.806+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:41:47.840+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.143 seconds
+[2023-10-05T16:42:18.775+0000] {processor.py:157} INFO - Started process (PID=1836) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:42:18.778+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T16:42:18.781+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:42:18.781+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:42:18.835+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T16:42:18.863+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:42:18.862+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T16:42:18.881+0000] {logging_mixin.py:151} INFO - [2023-10-05T16:42:18.880+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T16:42:18.915+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.146 seconds
+[2023-10-05T17:12:30.968+0000] {processor.py:157} INFO - Started process (PID=1855) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:12:30.971+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T17:12:30.973+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:12:30.972+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:12:31.047+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:12:31.078+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:12:31.078+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T17:12:31.110+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:12:31.109+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T17:12:31.165+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.205 seconds
+[2023-10-05T17:13:27.152+0000] {processor.py:157} INFO - Started process (PID=1867) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:13:27.164+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T17:13:27.172+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:13:27.170+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:13:27.460+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:13:27.615+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:13:27.614+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T17:13:28.751+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:13:28.749+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T17:13:28.881+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 1.766 seconds
+[2023-10-05T17:30:59.188+0000] {processor.py:157} INFO - Started process (PID=1886) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:30:59.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T17:30:59.202+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:30:59.201+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:30:59.276+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:30:59.572+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:30:59.572+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T17:30:59.598+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:30:59.598+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T17:30:59.638+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.462 seconds
+[2023-10-05T17:31:41.941+0000] {processor.py:157} INFO - Started process (PID=1898) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:31:42.050+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T17:31:42.157+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:31:42.125+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:31:44.188+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:31:48.130+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:31:48.083+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T17:31:49.816+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:31:49.771+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T17:31:50.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 9.085 seconds
+[2023-10-05T17:48:27.528+0000] {processor.py:157} INFO - Started process (PID=1911) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:48:27.531+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T17:48:27.536+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:48:27.534+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:48:27.601+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:48:27.635+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:48:27.634+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T17:48:27.663+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:48:27.663+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T17:48:27.994+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.477 seconds
+[2023-10-05T17:49:22.493+0000] {processor.py:157} INFO - Started process (PID=1924) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:49:22.562+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T17:49:22.594+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:49:22.593+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:49:22.922+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T17:49:23.973+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:49:23.972+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T17:49:24.032+0000] {logging_mixin.py:151} INFO - [2023-10-05T17:49:24.031+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T17:49:24.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 1.708 seconds
+[2023-10-05T18:14:45.688+0000] {processor.py:157} INFO - Started process (PID=1943) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T18:14:45.702+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T18:14:45.706+0000] {logging_mixin.py:151} INFO - [2023-10-05T18:14:45.705+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T18:14:46.518+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T18:14:46.682+0000] {logging_mixin.py:151} INFO - [2023-10-05T18:14:46.681+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T18:14:46.710+0000] {logging_mixin.py:151} INFO - [2023-10-05T18:14:46.710+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T18:14:46.795+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 1.117 seconds
+[2023-10-05T18:15:33.344+0000] {processor.py:157} INFO - Started process (PID=1955) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T18:15:33.414+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T18:15:33.483+0000] {logging_mixin.py:151} INFO - [2023-10-05T18:15:33.461+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T19:41:51.212+0000] {logging_mixin.py:151} INFO - [2023-10-05T19:41:51.211+0000] {timeout.py:68} ERROR - Process timed out, PID: 1955
+[2023-10-05T19:41:51.497+0000] {logging_mixin.py:151} INFO - [2023-10-05T19:41:51.376+0000] {variable.py:281} ERROR - Unable to retrieve variable from secrets backend (MetastoreBackend). Checking subsequent secrets backend.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 277, in get_variable_from_secrets
+    var_val = secrets_backend.get_variable(key=key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 77, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/secrets/metastore.py", line 69, in get_variable
+    var_value = session.scalar(select(Variable).where(Variable.key == key).limit(1))
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/future/engine.py", line 406, in connect
+    return super(Engine, self).connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 702, in __connect
+    pool.dispatch.connect.for_modify(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/event/attr.py", line 320, in _exec_w_sync_on_first_run
+    self(*args, **kw)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/event/attr.py", line 334, in __call__
+    fn(*args, **kw)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1695, in go
+    return once_fn(*arg, **kw)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 678, in first_connect
+    dialect.do_rollback(c.connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/reddit_post_comment_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.7.0/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.7.0/best-practices.html#reducing-dag-complexity, PID: 1955
+[2023-10-05T19:41:51.639+0000] {logging_mixin.py:151} INFO - [2023-10-05T19:41:51.600+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_post_comment_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_post_comment_dag.py", line 32, in <module>
+    mysql_conn_id = Variable.get("mysql_connection_id")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 140, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable mysql_connection_id does not exist'
+[2023-10-05T19:41:51.660+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T19:41:49.154+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 5179.438 seconds
+[2023-10-05T19:42:23.712+0000] {processor.py:157} INFO - Started process (PID=1974) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T19:42:23.818+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T19:42:23.945+0000] {logging_mixin.py:151} INFO - [2023-10-05T19:42:23.913+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T19:42:25.758+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T20:09:14.675+0000] {logging_mixin.py:151} INFO - [2023-10-05T20:09:14.674+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T20:09:14.716+0000] {logging_mixin.py:151} INFO - [2023-10-05T20:09:14.716+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T20:09:14.978+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 1612.264 seconds
+[2023-10-05T20:09:48.988+0000] {processor.py:157} INFO - Started process (PID=1993) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T20:09:49.255+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T20:09:49.429+0000] {logging_mixin.py:151} INFO - [2023-10-05T20:09:49.354+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T20:09:52.576+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T20:09:54.096+0000] {logging_mixin.py:151} INFO - [2023-10-05T20:09:54.074+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T20:09:58.403+0000] {logging_mixin.py:151} INFO - [2023-10-05T20:09:58.398+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T20:10:07.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 18.738 seconds
+[2023-10-05T21:35:50.471+0000] {processor.py:157} INFO - Started process (PID=2016) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:35:50.475+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T21:35:50.478+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:35:50.477+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:35:50.542+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:35:50.585+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:35:50.584+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T21:35:50.614+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:35:50.614+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T21:35:50.681+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.218 seconds
+[2023-10-05T21:36:44.508+0000] {processor.py:157} INFO - Started process (PID=2028) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:36:44.516+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T21:36:44.523+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:36:44.521+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:36:44.650+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:36:44.733+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:36:44.733+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T21:36:45.754+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:36:45.750+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T21:36:45.869+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 1.379 seconds
+[2023-10-05T21:37:16.294+0000] {processor.py:157} INFO - Started process (PID=2041) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:37:16.297+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T21:37:16.300+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:37:16.299+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:37:16.600+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:37:16.658+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:37:16.657+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T21:37:16.706+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:37:16.705+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T21:37:16.784+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.499 seconds
+[2023-10-05T21:37:47.172+0000] {processor.py:157} INFO - Started process (PID=2053) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:37:47.175+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T21:37:47.177+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:37:47.177+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:37:47.222+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:37:47.247+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:37:47.247+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T21:37:47.268+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:37:47.267+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T21:37:47.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.134 seconds
+[2023-10-05T21:38:17.826+0000] {processor.py:157} INFO - Started process (PID=2065) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:38:17.828+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T21:38:17.830+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:38:17.830+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:38:17.876+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T21:38:17.901+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:38:17.900+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T21:38:17.919+0000] {logging_mixin.py:151} INFO - [2023-10-05T21:38:17.919+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T21:38:17.946+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.127 seconds
+[2023-10-05T22:26:52.254+0000] {processor.py:157} INFO - Started process (PID=2084) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T22:26:52.269+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T22:26:52.281+0000] {logging_mixin.py:151} INFO - [2023-10-05T22:26:52.274+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T22:26:52.396+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T22:26:52.437+0000] {logging_mixin.py:151} INFO - [2023-10-05T22:26:52.437+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-05T22:26:52.478+0000] {logging_mixin.py:151} INFO - [2023-10-05T22:26:52.477+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-05T22:26:52.522+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.312 seconds
+[2023-10-05T22:27:34.631+0000] {processor.py:157} INFO - Started process (PID=2096) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T22:27:34.723+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-05T22:27:34.791+0000] {logging_mixin.py:151} INFO - [2023-10-05T22:27:34.775+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-05T22:27:38.066+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-06T00:27:42.764+0000] {logging_mixin.py:151} INFO - [2023-10-06T00:27:42.763+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T00:27:38.644+0000] {logging_mixin.py:151} INFO - [2023-10-06T00:27:38.644+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-06T00:27:38.817+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 7209.693 seconds

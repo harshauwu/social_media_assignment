@@ -1,6 +1,6 @@
 from flask import jsonify
 from db.models.reddit_posts import RedditPost  # Import the RedditPost model
-from db.models.youtube_posts import YoutubePosts
+from db.models.youtube_posts import YoutubePost
 from db.models.organization_table import OrganizationTable 
 
 # from db.models.reddit_post_comments import RedditPostComment  # Import the RedditPostComment model
@@ -59,7 +59,7 @@ def get_reddit_data():
     
 def get_youtube_data():
     try:
-        posts = YoutubePosts.query.all()
+        posts = YoutubePost.query.all()
         OrganizationTable
         like_count = 0
         comment_count = 0
