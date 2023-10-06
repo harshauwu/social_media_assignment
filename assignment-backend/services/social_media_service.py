@@ -43,14 +43,19 @@ def get_sentiment_data():
 
 def get_reddit_data():
     try:
-        posts = RedditPost.query.all()
-        OrganizationTable
         like_count = 0
         comment_count = 0
+
+        posts = RedditPost.query.all()
+        reddit = OrganizationTable.query.filter_by(social_media_platform='Reddit').first()
+        subscribers = reddit.subscribers
+       
         for post in posts:
             like_count = like_count + post.score
             comment_count =  comment_count + post.comms_num
-        data = {'like_count': like_count, 'comment_count': comment_count}
+
+        data = {'like_count': like_count, 'comment_count': comment_count, 'subscriber_count': subscribers}
+
         return jsonify(data)
     
     except Exception as e:
@@ -59,16 +64,20 @@ def get_reddit_data():
     
 def get_youtube_data():
     try:
-        posts = YoutubePost.query.all()
-        OrganizationTable
+        view_count = 0
         like_count = 0
         comment_count = 0
-        view_count = 0
+        
+        posts = YoutubePost.query.all()
+        youtube = OrganizationTable.query.filter_by(social_media_platform='YouTube').first()
+        subscribers = youtube.subscribers
+
         for post in posts:
-            like_count = like_count + post.score
-            comment_count =  comment_count + post.comms_num,
-            view_count = 0
-        data = {'like_count': like_count, 'comment_count': comment_count, 'view_count': view_count}
+            view_count = view_count + post.view_count
+            like_count = like_count + post.like_count
+            comment_count =  comment_count + post.comment_count
+            
+        data = {'like_count': like_count, 'comment_count': comment_count, 'view_count': view_count, 'subscriber_count': subscribers}
         return jsonify(data)
     
     except Exception as e:

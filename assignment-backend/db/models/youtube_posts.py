@@ -5,10 +5,11 @@ from typing import Any
 class YoutubePost(db.Model):
     __tablename__ = 'youtube_posts'
 
-    id = db.Column(db.String(255), primary_key=True)
+    # id = db.Column(db.String(255), primary_key=True)
     view_count = db.Column(db.String(255), primary_key=True)
+    like_count = db.Column(db.String(255), primary_key=True)
     comment_count = db.Column(db.String(255), nullable=False)
-    duration = db.Column(db.Integer, nullable=False)
+    durations = db.Column(db.Integer, nullable=False)
     published_at = db.Column(db.String(255), nullable=False)
     published_date = db.Column(db.Integer, nullable=False)
     published_time = db.Column(db.Text, nullable=False)

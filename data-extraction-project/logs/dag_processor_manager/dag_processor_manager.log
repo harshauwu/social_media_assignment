@@ -19998,3 +19998,298 @@ File Path                                     PID    Runtime      # DAGs    # Er
 /opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.23s           2023-10-06T03:09:03
 /opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.16s           2023-10-06T03:08:48
 ================================================================================
+[2023-10-06T03:09:36.857+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.20s           2023-10-06T03:09:33
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.16s           2023-10-06T03:09:33
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.16s           2023-10-06T03:09:20
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.18s           2023-10-06T03:09:33
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.16s           2023-10-06T03:09:19
+================================================================================
+[2023-10-06T03:10:06.933+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.35s           2023-10-06T03:10:04
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.27s           2023-10-06T03:10:04
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.16s           2023-10-06T03:09:51
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.33s           2023-10-06T03:10:04
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.17s           2023-10-06T03:09:50
+================================================================================
+[2023-10-06T03:10:37.079+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.28s           2023-10-06T03:10:35
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.22s           2023-10-06T03:10:35
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.17s           2023-10-06T03:10:22
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.25s           2023-10-06T03:10:34
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.18s           2023-10-06T03:10:21
+================================================================================
+[2023-10-06T03:11:07.224+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.39s           2023-10-06T03:11:05
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.36s           2023-10-06T03:11:06
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.19s           2023-10-06T03:10:52
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.32s           2023-10-06T03:11:05
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.23s           2023-10-06T03:10:51
+================================================================================
+[2023-10-06T03:11:21.081+0000] {manager.py:760} INFO - Searching for files in /opt/airflow/dags
+[2023-10-06T03:11:21.116+0000] {manager.py:763} INFO - There are 5 files in /opt/airflow/dags
+[2023-10-06T03:11:37.688+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.20s           2023-10-06T03:11:36
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.16s           2023-10-06T03:11:36
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.15s           2023-10-06T03:11:23
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.18s           2023-10-06T03:11:36
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.16s           2023-10-06T03:11:22
+================================================================================
+[2023-10-06T03:12:08.368+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.21s           2023-10-06T03:12:07
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.17s           2023-10-06T03:12:07
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.17s           2023-10-06T03:11:54
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.22s           2023-10-06T03:12:07
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.18s           2023-10-06T03:11:52
+================================================================================
+[2023-10-06T03:12:39.034+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.17s           2023-10-06T03:12:37
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.15s           2023-10-06T03:12:38
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.15s           2023-10-06T03:12:24
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.21s           2023-10-06T03:12:38
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.15s           2023-10-06T03:12:23
+================================================================================
+[2023-10-06T03:13:09.742+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.17s           2023-10-06T03:13:08
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.16s           2023-10-06T03:13:08
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.16s           2023-10-06T03:12:55
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.21s           2023-10-06T03:13:08
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.19s           2023-10-06T03:12:54
+================================================================================
+[2023-10-06T03:13:40.471+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.19s           2023-10-06T03:13:39
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.21s           2023-10-06T03:13:39
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.23s           2023-10-06T03:13:26
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.16s           2023-10-06T03:13:39
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.22s           2023-10-06T03:13:25
+================================================================================
+[2023-10-06T03:14:11.162+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.24s           2023-10-06T03:14:10
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.19s           2023-10-06T03:14:10
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.17s           2023-10-06T03:13:56
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.23s           2023-10-06T03:14:10
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.18s           2023-10-06T03:13:55
+================================================================================
+[2023-10-06T03:14:41.894+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.23s           2023-10-06T03:14:40
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.18s           2023-10-06T03:14:40
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.15s           2023-10-06T03:14:27
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.18s           2023-10-06T03:14:40
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.18s           2023-10-06T03:14:26
+================================================================================
+[2023-10-06T03:15:12.528+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.19s           2023-10-06T03:15:11
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.19s           2023-10-06T03:15:11
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.16s           2023-10-06T03:14:58
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.18s           2023-10-06T03:15:11
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.17s           2023-10-06T03:14:57
+================================================================================
+[2023-10-06T03:15:43.227+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.20s           2023-10-06T03:15:42
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.19s           2023-10-06T03:15:42
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.19s           2023-10-06T03:15:29
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.19s           2023-10-06T03:15:42
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.19s           2023-10-06T03:15:27
+================================================================================
+[2023-10-06T03:16:14.016+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.29s           2023-10-06T03:16:12
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.25s           2023-10-06T03:16:13
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.16s           2023-10-06T03:15:59
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.25s           2023-10-06T03:16:12
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.18s           2023-10-06T03:15:58
+================================================================================
+[2023-10-06T03:16:21.243+0000] {manager.py:760} INFO - Searching for files in /opt/airflow/dags
+[2023-10-06T03:16:21.270+0000] {manager.py:763} INFO - There are 5 files in /opt/airflow/dags
+[2023-10-06T03:16:44.689+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.21s           2023-10-06T03:16:43
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.18s           2023-10-06T03:16:43
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.20s           2023-10-06T03:16:30
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.21s           2023-10-06T03:16:43
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.18s           2023-10-06T03:16:29
+================================================================================
+[2023-10-06T03:17:15.410+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.25s           2023-10-06T03:17:14
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.21s           2023-10-06T03:17:14
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.18s           2023-10-06T03:17:01
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.21s           2023-10-06T03:17:14
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.15s           2023-10-06T03:16:59
+================================================================================
+[2023-10-06T03:17:46.074+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.18s           2023-10-06T03:17:45
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.17s           2023-10-06T03:17:45
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.15s           2023-10-06T03:17:31
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.18s           2023-10-06T03:17:45
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.15s           2023-10-06T03:17:30
+================================================================================
+[2023-10-06T03:18:16.720+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.17s           2023-10-06T03:18:15
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.15s           2023-10-06T03:18:15
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.16s           2023-10-06T03:18:02
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.17s           2023-10-06T03:18:15
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.17s           2023-10-06T03:18:01
+================================================================================
+[2023-10-06T03:18:47.398+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.17s           2023-10-06T03:18:46
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.15s           2023-10-06T03:18:46
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.15s           2023-10-06T03:18:33
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.22s           2023-10-06T03:18:46
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.15s           2023-10-06T03:18:32
+================================================================================
+[2023-10-06T03:19:18.105+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.22s           2023-10-06T03:19:17
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.19s           2023-10-06T03:19:17
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.16s           2023-10-06T03:19:03
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.21s           2023-10-06T03:19:17
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.15s           2023-10-06T03:19:02
+================================================================================
+[2023-10-06T03:19:48.787+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.17s           2023-10-06T03:19:47
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.15s           2023-10-06T03:19:47
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.15s           2023-10-06T03:19:34
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.16s           2023-10-06T03:19:47
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.17s           2023-10-06T03:19:33
+================================================================================
+[2023-10-06T03:20:19.414+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.17s           2023-10-06T03:20:18
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.16s           2023-10-06T03:20:18
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.15s           2023-10-06T03:20:05
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.16s           2023-10-06T03:20:18
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.15s           2023-10-06T03:20:04
+================================================================================
+[2023-10-06T03:20:50.079+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.18s           2023-10-06T03:20:49
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.15s           2023-10-06T03:20:49
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.16s           2023-10-06T03:20:35
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.17s           2023-10-06T03:20:49
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.15s           2023-10-06T03:20:34
+================================================================================
+[2023-10-06T03:21:20.770+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  0.21s           2023-10-06T03:21:19
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  0.18s           2023-10-06T03:21:19
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  0.31s           2023-10-06T03:21:06
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  0.26s           2023-10-06T03:21:19
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  0.17s           2023-10-06T03:21:05
+================================================================================
+[2023-10-06T03:21:21.789+0000] {manager.py:760} INFO - Searching for files in /opt/airflow/dags
+[2023-10-06T03:21:21.824+0000] {manager.py:763} INFO - There are 5 files in /opt/airflow/dags
+[2023-10-06T03:21:46.058+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15

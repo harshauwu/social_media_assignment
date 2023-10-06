@@ -887,3 +887,178 @@
 [2023-10-06T03:08:48.739+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:08:48.739+0000] {dag.py:2907} INFO - Sync 1 DAGs
 [2023-10-06T03:08:48.756+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:08:48.756+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
 [2023-10-06T03:08:48.790+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.122 seconds
+[2023-10-06T03:09:19.307+0000] {processor.py:157} INFO - Started process (PID=3646) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:09:19.309+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:09:19.311+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:19.310+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:09:19.349+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:09:19.375+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:19.374+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:09:19.392+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:19.392+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:09:19.422+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.121 seconds
+[2023-10-06T03:09:50.003+0000] {processor.py:157} INFO - Started process (PID=3658) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:09:50.007+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:09:50.010+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:50.009+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:09:50.059+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:09:50.083+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:50.082+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:09:50.100+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:50.100+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:09:50.129+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.131 seconds
+[2023-10-06T03:10:20.854+0000] {processor.py:157} INFO - Started process (PID=3670) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:10:20.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:10:20.861+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:20.860+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:10:20.906+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:10:20.934+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:20.934+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:10:20.952+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:20.952+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:10:20.979+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.131 seconds
+[2023-10-06T03:10:51.187+0000] {processor.py:157} INFO - Started process (PID=3682) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:10:51.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:10:51.207+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:51.206+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:10:51.267+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:10:51.311+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:51.311+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:10:51.338+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:51.338+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:10:51.375+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.197 seconds
+[2023-10-06T03:11:22.166+0000] {processor.py:157} INFO - Started process (PID=3694) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:11:22.169+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:11:22.171+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:22.171+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:11:22.211+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:11:22.238+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:22.238+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:11:22.256+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:22.256+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:11:22.284+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.124 seconds
+[2023-10-06T03:11:52.813+0000] {processor.py:157} INFO - Started process (PID=3706) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:11:52.817+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:11:52.820+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:52.819+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:11:52.861+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:11:52.887+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:52.887+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:11:52.910+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:52.910+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:11:52.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.142 seconds
+[2023-10-06T03:12:23.515+0000] {processor.py:157} INFO - Started process (PID=3718) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:12:23.517+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:12:23.520+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:23.520+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:12:23.557+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:12:23.580+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:23.580+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:12:23.597+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:23.597+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:12:23.625+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.116 seconds
+[2023-10-06T03:12:54.208+0000] {processor.py:157} INFO - Started process (PID=3730) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:12:54.211+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:12:54.214+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:54.213+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:12:54.257+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:12:54.288+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:54.288+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:12:54.307+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:54.306+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:12:54.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.145 seconds
+[2023-10-06T03:13:24.894+0000] {processor.py:157} INFO - Started process (PID=3743) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:13:24.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:13:24.904+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:24.901+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:13:24.960+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:13:24.990+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:24.989+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:13:25.012+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:25.012+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:13:25.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.170 seconds
+[2023-10-06T03:13:55.633+0000] {processor.py:157} INFO - Started process (PID=3755) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:13:55.636+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:13:55.638+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:55.637+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:13:55.683+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:13:55.712+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:55.712+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:13:55.735+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:55.734+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:13:55.770+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.143 seconds
+[2023-10-06T03:14:26.327+0000] {processor.py:157} INFO - Started process (PID=3774) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:14:26.329+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:14:26.333+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:26.332+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:14:26.380+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:14:26.405+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:26.405+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:14:26.428+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:26.427+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:14:26.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.140 seconds
+[2023-10-06T03:14:57.043+0000] {processor.py:157} INFO - Started process (PID=3786) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:14:57.045+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:14:57.047+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:57.046+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:14:57.090+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:14:57.113+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:57.113+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:14:57.137+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:57.137+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:14:57.164+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.127 seconds
+[2023-10-06T03:15:27.695+0000] {processor.py:157} INFO - Started process (PID=3798) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:15:27.698+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:15:27.702+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:27.701+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:15:27.745+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:15:27.769+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:27.768+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:15:27.791+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:27.791+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:15:27.832+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.146 seconds
+[2023-10-06T03:15:58.378+0000] {processor.py:157} INFO - Started process (PID=3810) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:15:58.380+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:15:58.384+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:58.383+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:15:58.428+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:15:58.455+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:58.455+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:15:58.477+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:58.477+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:15:58.512+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.143 seconds
+[2023-10-06T03:16:29.167+0000] {processor.py:157} INFO - Started process (PID=3822) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:16:29.169+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:16:29.172+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:29.171+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:16:29.209+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:16:29.234+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:29.233+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:16:29.257+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:29.257+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:16:29.298+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.137 seconds
+[2023-10-06T03:16:59.874+0000] {processor.py:157} INFO - Started process (PID=3834) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:16:59.877+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:16:59.879+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:59.879+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:16:59.915+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:16:59.938+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:59.937+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:16:59.955+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:59.955+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:16:59.984+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.115 seconds
+[2023-10-06T03:17:30.597+0000] {processor.py:157} INFO - Started process (PID=3846) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:17:30.600+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:17:30.602+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:17:30.601+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:17:30.641+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:17:30.664+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:17:30.663+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:17:30.682+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:17:30.682+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:17:30.710+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.119 seconds
+[2023-10-06T03:18:01.234+0000] {processor.py:157} INFO - Started process (PID=3858) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:18:01.236+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:18:01.238+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:01.238+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:18:01.276+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:18:01.302+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:01.302+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:18:01.326+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:01.325+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:18:01.361+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.133 seconds
+[2023-10-06T03:18:31.894+0000] {processor.py:157} INFO - Started process (PID=3870) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:18:31.897+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:18:31.899+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:31.898+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:18:31.937+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:18:31.959+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:31.959+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:18:31.980+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:31.980+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:18:32.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.120 seconds
+[2023-10-06T03:19:02.567+0000] {processor.py:157} INFO - Started process (PID=3882) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:19:02.570+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:19:02.573+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:02.572+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:19:02.611+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:19:02.634+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:02.634+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:19:02.652+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:02.652+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:19:02.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.118 seconds
+[2023-10-06T03:19:33.256+0000] {processor.py:157} INFO - Started process (PID=3895) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:19:33.259+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:19:33.261+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:33.261+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:19:33.303+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:19:33.330+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:33.330+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:19:33.352+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:33.352+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:19:33.383+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.132 seconds
+[2023-10-06T03:20:03.951+0000] {processor.py:157} INFO - Started process (PID=3907) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:20:03.954+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:20:03.956+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:03.955+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:20:03.998+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:20:04.020+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:04.020+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:20:04.037+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:04.037+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:20:04.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.120 seconds
+[2023-10-06T03:20:34.600+0000] {processor.py:157} INFO - Started process (PID=3919) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:20:34.603+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:20:34.605+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:34.604+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:20:34.642+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:20:34.663+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:34.663+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:20:34.681+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:34.681+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:20:34.711+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.116 seconds
+[2023-10-06T03:21:05.261+0000] {processor.py:157} INFO - Started process (PID=3931) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:21:05.265+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:21:05.268+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:05.267+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:21:05.310+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:21:05.335+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:05.335+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:21:05.355+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:05.355+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:21:05.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.134 seconds
+[2023-10-06T03:21:36.014+0000] {processor.py:157} INFO - Started process (PID=3943) to work on /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:21:36.017+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youtube_starbucks_dag.py for tasks to queue
+[2023-10-06T03:21:36.019+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:36.018+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:21:36.058+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_starbucks_Dag']) retrieved from /opt/airflow/dags/youtube_starbucks_dag.py
+[2023-10-06T03:21:36.089+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:36.089+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:21:36.106+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:36.106+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_starbucks_Dag to None, run_after=None
+[2023-10-06T03:21:36.136+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youtube_starbucks_dag.py took 0.128 seconds
