@@ -13,25 +13,42 @@ def extract_video_data(**kwargs):
     # Define the channelId of the YouTube channel you want to fetch videos from
     channel_id = 'UCucZ0dYXTXLs66eKo98ujmg'
 
-    # Use the search.list method to retrieve a list of videos from the channel
-    search_response = youtube.search().list(
-        q=None,
-        type='video',
-        channelId=channel_id,
-        order='date',
-        part='id',
-        maxResults=500  # You can adjust this to retrieve more or fewer videos
-    ).execute()
+    # Initialize a list to store all the video IDs
+    all_video_ids = []
 
-    # Extract video IDs from the search results
-    video_ids = [item['id']['videoId'] for item in search_response['items']]
+    # Perform 20 iterations to fetch videos
+    for _ in range(20):
+        # Use the search.list method to retrieve a list of videos from the channel
+        search_response = youtube.search().list(
+            q=None,
+            type='video',
+            channelId=channel_id,
+            order='date',
+            part='id',
+            maxResults=50,
+            # Set the pageToken to the token of the previous response (or None for the first request)
+            pageToken=next_page_token if 'nextPageToken' in locals() else None
+        ).execute()
 
-    print(video_ids)
+        # Extract video IDs from the search results
+        video_ids = [item['id']['videoId'] for item in search_response['items']]
+
+        # Append the current page's video IDs to the list of all video IDs
+        all_video_ids.extend(video_ids)
+
+        # Get the next page token for the next iteration
+        next_page_token = search_response.get('nextPageToken')
+
+        # If there's no more next page, exit the loop
+        if not next_page_token:
+            break
+
+    print(all_video_ids)
 
     # Fetch video details for each video ID
     video_details = []
 
-    for video_id in video_ids:
+    for video_id in all_video_ids:
         video_response = youtube.videos().list(
             part='snippet, contentDetails, statistics',
             id=video_id
