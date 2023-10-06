@@ -9,3 +9,4 @@ cryptography
 praw
 joblib
 pandas
+statsmodels

@@ -1062,3 +1062,17 @@
 [2023-10-06T03:21:37.196+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:37.196+0000] {dag.py:2907} INFO - Sync 1 DAGs
 [2023-10-06T03:21:37.215+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:37.215+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_starbucks_Dag to None, run_after=None
 [2023-10-06T03:21:37.246+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_starbucks_dag.py took 0.129 seconds
+[2023-10-06T03:50:07.300+0000] {processor.py:157} INFO - Started process (PID=33) to work on /opt/airflow/dags/reddit_starbucks_dag.py
+[2023-10-06T03:50:07.314+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_starbucks_dag.py for tasks to queue
+[2023-10-06T03:50:07.376+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:07.371+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_starbucks_dag.py
+[2023-10-06T03:50:07.706+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_starbucks_Dag']) retrieved from /opt/airflow/dags/reddit_starbucks_dag.py
+[2023-10-06T03:50:08.340+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:08.339+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:50:08.427+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:08.427+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_starbucks_Dag to None, run_after=None
+[2023-10-06T03:50:08.509+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_starbucks_dag.py took 1.275 seconds
+[2023-10-06T03:50:38.715+0000] {processor.py:157} INFO - Started process (PID=45) to work on /opt/airflow/dags/reddit_starbucks_dag.py
+[2023-10-06T03:50:38.721+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_starbucks_dag.py for tasks to queue
+[2023-10-06T03:50:38.746+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:38.743+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_starbucks_dag.py
+[2023-10-06T03:50:38.897+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_starbucks_Dag']) retrieved from /opt/airflow/dags/reddit_starbucks_dag.py
+[2023-10-06T03:50:38.948+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:38.947+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:50:38.996+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:38.995+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_starbucks_Dag to None, run_after=None
+[2023-10-06T03:50:39.056+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_starbucks_dag.py took 0.346 seconds

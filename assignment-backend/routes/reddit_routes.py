@@ -27,7 +27,7 @@ def fetch_analyze_sentiment():
 
 @reddit_routes.route('/predictive-likes', methods=['GET'])
 def fetch_predictive_likes():
-    predictive_likes = post_controller.get_predict_likes()
+    predictive_likes = social_media_controller.get_predict_likes()
     return predictive_likes
 
 @reddit_routes.route('/reddit-details', methods=['GET'])

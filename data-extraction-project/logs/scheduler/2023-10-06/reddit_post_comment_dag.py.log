@@ -1041,3 +1041,17 @@
 [2023-10-06T03:21:19.652+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:19.651+0000] {dag.py:2907} INFO - Sync 1 DAGs
 [2023-10-06T03:21:19.679+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:19.679+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
 [2023-10-06T03:21:19.722+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.169 seconds
+[2023-10-06T03:50:09.809+0000] {processor.py:157} INFO - Started process (PID=36) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-06T03:50:09.816+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-06T03:50:09.837+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:09.836+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-06T03:50:10.157+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-06T03:50:11.438+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:11.438+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:50:11.572+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:11.570+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-06T03:50:12.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 2.788 seconds
+[2023-10-06T03:50:43.180+0000] {processor.py:157} INFO - Started process (PID=55) to work on /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-06T03:50:43.182+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_post_comment_dag.py for tasks to queue
+[2023-10-06T03:50:43.188+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:43.188+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-06T03:50:43.239+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Reddit_Post_Comment_Dag']) retrieved from /opt/airflow/dags/reddit_post_comment_dag.py
+[2023-10-06T03:50:43.264+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:43.264+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:50:43.287+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:43.286+0000] {dag.py:3677} INFO - Setting next_dagrun for Reddit_Post_Comment_Dag to None, run_after=None
+[2023-10-06T03:50:43.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_post_comment_dag.py took 0.148 seconds

@@ -20293,3 +20293,33 @@ File Path                                     PID    Runtime      # DAGs    # Er
 [2023-10-06T03:21:21.789+0000] {manager.py:760} INFO - Searching for files in /opt/airflow/dags
 [2023-10-06T03:21:21.824+0000] {manager.py:763} INFO - There are 5 files in /opt/airflow/dags
 [2023-10-06T03:21:46.058+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-10-06T03:50:06.810+0000] {manager.py:488} INFO - Processing files using up to 2 processes at a time 
+[2023-10-06T03:50:06.812+0000] {manager.py:489} INFO - Process each file at most once every 30 seconds
+[2023-10-06T03:50:06.815+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-10-06T03:50:06.818+0000] {manager.py:760} INFO - Searching for files in /opt/airflow/dags
+[2023-10-06T03:50:06.950+0000] {manager.py:763} INFO - There are 5 files in /opt/airflow/dags
+[2023-10-06T03:50:07.596+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/reddit_post_comment_dag.py                           0           0
+/opt/airflow/dags/reddit_post_dag.py                                   0           0
+/opt/airflow/dags/reddit_starbucks_dag.py        33  0.39s             0           0
+/opt/airflow/dags/youTube_video_data_dag.py                            0           0
+/opt/airflow/dags/youtube_starbucks_dag.py       34  0.30s             0           0
+================================================================================
+[2023-10-06T03:50:37.669+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/reddit_post_comment_dag.py                           1           0  3.21s           2023-10-06T03:50:12
+/opt/airflow/dags/reddit_post_dag.py                                   1           0  2.12s           2023-10-06T03:50:14
+/opt/airflow/dags/reddit_starbucks_dag.py                              1           0  1.43s           2023-10-06T03:50:08
+/opt/airflow/dags/youTube_video_data_dag.py                            1           0  3.30s           2023-10-06T03:50:11
+/opt/airflow/dags/youtube_starbucks_dag.py                             1           0  1.36s           2023-10-06T03:50:08
+================================================================================
+[2023-10-06T03:50:52.966+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15

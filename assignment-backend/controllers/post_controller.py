@@ -2,24 +2,15 @@ from flask import request, jsonify
 import praw
 from praw.models import InlineGif, InlineImage, InlineVideo
 from config import REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT
-from services.post_service import save_post, get_all_schedule_posts, get_reddit_like_forecasts
+from services.post_service import save_post, get_all_schedule_posts
 
-def get_predict_likes():
-    try:
-       # Call the service function to get all Reddit posts
-        posts = get_reddit_like_forecasts(7)
-        return jsonify(posts)  
-    
-    except Exception as e:
-            # Handle exceptions (e.g., database connection error)
-            return f"Error fetching Reddit posts: {str(e)}"
 
 def get_schedule_posts():
     try:
          
        # Call the service function to get all Reddit posts
         posts = get_all_schedule_posts()
-        return jsonify(posts)  
+        return posts
     
     except Exception as e:
             # Handle exceptions (e.g., database connection error)
