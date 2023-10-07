@@ -32,7 +32,7 @@ def get_all_reddit_posts():
                 "subreddit": post.subreddit
             }
             posts_data.append(reddit_post_dict)
-        return jsonify(posts_data)
+        return posts_data
     except Exception as e:
         # Handle exceptions (e.g., database connection error)
         return f"Error fetching Reddit posts: {str(e)}"
@@ -53,7 +53,7 @@ def get_sentiment_data():
         negative_count = sentiment_counts['negative']  
 
         data = {'positive':positive_count ,'neutral': neutral_count, 'negative': negative_count}
-        return jsonify(data)
+        return data
     except Exception as e:
         # Handle exceptions (e.g., database connection error)
         return f"Error fetching Reddit posts: {str(e)}"   
@@ -73,7 +73,7 @@ def get_reddit_data():
 
         data = {'like_count': like_count, 'comment_count': comment_count, 'subscriber_count': subscribers}
 
-        return jsonify(data)
+        return data
     
     except Exception as e:
         # Handle exceptions (e.g., database connection error)
@@ -95,7 +95,7 @@ def get_youtube_data():
             comment_count =  comment_count + post.comment_count
             
         data = {'like_count': like_count, 'comment_count': comment_count, 'view_count': view_count, 'subscriber_count': subscribers}
-        return jsonify(data)
+        return data
     
     except Exception as e:
         # Handle exceptions (e.g., database connection error)

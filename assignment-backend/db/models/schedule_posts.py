@@ -7,11 +7,13 @@ class SchedulePost(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(255), nullable=False)
-    url = db.Column(db.String(255))
-    body = db.Column(db.Text)
-    media = db.Column(db.Text)  
-    post_at = db.Column(db.DateTime)  
+    url = db.Column(db.String(255), nullable=False)
+    body = db.Column(db.String(255))
+    media = db.Column(db.String(255))  
+    rule = db.Column(db.String(255))  
     tags = db.Column(db.String(255))  
+    is_one_time = db.Column(db.Boolean)
+    status = db.Column(db.Integer)
     created_at = db.Column(db.DateTime) 
     updated_at = db.Column(db.DateTime) 
 

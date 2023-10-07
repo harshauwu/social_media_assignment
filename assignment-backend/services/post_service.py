@@ -6,10 +6,18 @@ from db.models.schedule_posts import SchedulePost  # Import the SchedulePost mod
 def save_post(data):
     try:
         # Create a new SchedulePost object
+        tags = data.get('tags')
+        tags_str = ', '.join(tags) if tags else ''
+        
         new_post = SchedulePost(
             title = data["title"],
-            url = "https://example.com",
+            url = data["url"],
             body = data['text'],
+            tags = tags_str,
+            media = data['file'] if 'file' in data else '',
+            is_one_time = data['is_one_time'],
+            rule = data['rule'],
+            status = 1,
             created_at = datetime.utcnow(),  # Use the current UTC time
             updated_at = datetime.utcnow(),  # Use the current UTC time
         )
@@ -36,11 +44,14 @@ def get_all_schedule_posts():
                 "id": post.id,
                 "title": post.title,
                 "body": post.body,
-                "post_at": post.post_at,
+                "rule": post.rule,
+                "tags": post.tags,
+                "media" : post.media,
+                "is_one_time" : post.is_one_time,
                 "created_at": post.created_at
             }
             posts_data.append(reddit_post_dict)
-        return jsonify(posts_data)
+        return posts_data
     except Exception as e:
         # Handle exceptions (e.g., database connection error)
         return f"Error fetching Reddit posts: {str(e)}"     

@@ -8,7 +8,7 @@ def get_reddit_scores():
         # Call the service function to get all Reddit posts
         posts = get_all_reddit_posts()
         
-        return posts  # Return the calculated scores
+        return jsonify({"data": posts}), 200  # Return the calculated scores
         
     except Exception as e:
         # Handle exceptions (e.g., database connection error)
@@ -19,7 +19,7 @@ def get_sentiment_analysis_data():
         # Call the service function to get all Reddit posts
         posts = get_sentiment_data()
         
-        return posts  # Return the calculated scores
+        return jsonify({"data": posts}), 200   # Return the calculated scores
         
     except Exception as e:
         # Handle exceptions (e.g., database connection error)
@@ -30,7 +30,7 @@ def get_reddit_details():
         # Call the service function to get all Reddit posts
         details = get_reddit_data()
         
-        return details  # Return the calculated scores
+        return jsonify({"data": details}), 200   # Return the calculated scores
         
     except Exception as e:
         # Handle exceptions (e.g., database connection error)
@@ -41,7 +41,7 @@ def get_youtube_details():
         # Call the service function to get all Reddit posts
         details = get_youtube_data()
         
-        return details  # Return the calculated scores
+        return jsonify({"data": details}), 200  # Return the calculated scores
         
     except Exception as e:
         # Handle exceptions (e.g., database connection error)
@@ -57,7 +57,7 @@ def get_predict_likes():
 
         # Call the service function to get all Reddit posts
         posts = get_reddit_like_forecasts(forecast_periods)
-        return jsonify(posts)  
+        return jsonify({"data": posts}), 200 
     
     except Exception as e:
             # Handle exceptions (e.g., database connection error)
@@ -74,7 +74,7 @@ def get_predict_views():
 
         # Call the service function to get all Reddit posts
         posts = get_youtube_view_forecasts(forecast_periods)
-        return jsonify(posts)  
+        return jsonify({"data": posts}), 200
     
     except Exception as e:
             # Handle exceptions (e.g., database connection error)

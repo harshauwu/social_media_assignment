@@ -10,7 +10,7 @@ def get_schedule_posts():
          
        # Call the service function to get all Reddit posts
         posts = get_all_schedule_posts()
-        return posts
+        return jsonify({"data": posts}), 200
     
     except Exception as e:
             # Handle exceptions (e.g., database connection error)
@@ -23,15 +23,15 @@ def create_schedule_post():
         data = request.get_json()
         new_post = save_post(data)
 
-        # if new_post.id:
-        #     if data.is_one_time:
-        #          print('sdf')
+        if new_post.id:
+            if data['is_one_time']:
+                print('sdf')
                 # create_reddit_post(data)
                 # create_facebook_post(data)
-        return jsonify(data)  
+        return jsonify({"message": "schedule post insert successful", "id": new_post.id}), 200
     except Exception as e:
             # Handle exceptions (e.g., database connection error)
-            return f"Error fetching Reddit posts: {str(e)}"
+            return f"Error Saving Reddit posts: {str(e)}"
 
 def create_reddit_post(data):
     try:
