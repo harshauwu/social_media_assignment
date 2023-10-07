@@ -1,7 +1,7 @@
 # controllers/social_media_controller.py
 
-from flask import jsonify
-from services.social_media_service import get_all_reddit_posts, get_sentiment_data, get_reddit_data, get_youtube_data, get_reddit_like_forecasts
+from flask import request, jsonify
+from services.social_media_service import get_all_reddit_posts, get_sentiment_data, get_reddit_data, get_youtube_data, get_reddit_like_forecasts, get_youtube_view_forecasts
 
 def get_reddit_scores():
     try:
@@ -49,8 +49,31 @@ def get_youtube_details():
 
 def get_predict_likes():
     try:
-       # Call the service function to get all Reddit posts
-        posts = get_reddit_like_forecasts(7)
+        # Get the 'forecast_periods' query parameter from the URL
+        forecast_periods = request.args.get('forecast_periods')
+
+        # Convert the parameter to an integer (assuming it's an integer)
+        forecast_periods = int(forecast_periods)
+
+        # Call the service function to get all Reddit posts
+        posts = get_reddit_like_forecasts(forecast_periods)
+        return jsonify(posts)  
+    
+    except Exception as e:
+            # Handle exceptions (e.g., database connection error)
+            return f"Error fetching Reddit posts: {str(e)}"
+
+
+def get_predict_views():
+    try:
+        # Get the 'forecast_periods' query parameter from the URL
+        forecast_periods = request.args.get('forecast_periods')
+
+        # Convert the parameter to an integer (assuming it's an integer)
+        forecast_periods = int(forecast_periods)
+
+        # Call the service function to get all Reddit posts
+        posts = get_youtube_view_forecasts(forecast_periods)
         return jsonify(posts)  
     
     except Exception as e:
