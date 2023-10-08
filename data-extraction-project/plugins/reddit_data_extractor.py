@@ -16,7 +16,7 @@ def extract_post_data(**kwargs):
     # Get the top 10 posts from the r/python subreddit
     subreddit = reddit.subreddit('starbucks')
 
-    top_posts = subreddit.top(limit=10)
+    top_posts = subreddit.top(limit=1000)
 
     posts_dict = {
         "title": [],
@@ -44,7 +44,7 @@ def extract_post_data(**kwargs):
         posts_dict["subreddit"].append(post.subreddit)
         
     posts_df = pd.DataFrame(posts_dict)    
-    print(posts_df)
+    # print(posts_df)
     # Specify the path where you want to save the CSV file
     csv_file_path = "/home/airflow/starbucks_post_data_raw.csv"
     
@@ -58,10 +58,10 @@ def extract_post_comment(**kwargs):
 
     ti = kwargs['ti']
 
-    # post_ids = ti.xcom_pull(key='reddit_post_ids', task_ids=['post_details_task'])[0]
-    # print(post_ids)
+    #post_ids = ti.xcom_pull(key='reddit_post_ids', task_ids=['post_details_task'])[0]
+    #print(post_ids)
 
-    post_ids = ['92x3p6']
+    post_ids = ['ulza7v', '14ooc53']
     # Creating a Reddit object with the required parameters
     reddit = praw.Reddit(
         client_id='izlVfPwECjziab_rpf2D_A',

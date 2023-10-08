@@ -9,6 +9,7 @@ import pandas as pd
 from statsmodels.tsa.arima_model import ARIMA
 import statsmodels.api as sm
 import json
+import networkx as nx
 
 def get_all_reddit_posts():
     """
@@ -215,3 +216,115 @@ def get_youtube_view_forecasts(forecast_periods):
     except Exception as e:
             # Handle exceptions (e.g., database connection error)
             return f"Error fetching Reddit posts: {str(e)}"        
+
+
+def get_network_analysis_details():
+    try:
+        relationships = []
+        post_comments = RedditPostComment.query.all()
+        for comment in post_comments:
+            data = {
+                "post_author":comment.post_author,
+                "comment_auther": comment.comment_auther
+            }
+
+            # Append the relationships information to the list
+            relationships.append(data)
+
+        # Convert the list of dictionaries to a pandas DataFrame
+        df = pd.DataFrame(relationships) 
+
+        # Handle Missing Values (NaN)
+        df.dropna(subset=['comment_auther'], inplace=True)
+
+        # Create an empty graph
+        G = nx.Graph()
+
+        # Add nodes and edges based on the DataFrame
+        for _, row in df.iterrows():
+            post_author = row['post_author']
+            comment_author = row['comment_auther']
+            
+            # Add nodes for post authors and comment authors
+            G.add_node(post_author)
+            G.add_node(comment_author)
+            
+            # Add an edge between post author and comment author
+            G.add_edge(post_author, comment_author)   
+        
+        degree_centrality_data = degree_centrality(G)
+        betweenness_centrality_data = betweenness_centrality(G)
+        closeness_centrality_data = closeness_centrality(G)
+
+        return {'degree_centrality': degree_centrality_data, 'betweenness_centrality': betweenness_centrality_data, 'closeness_centrality': closeness_centrality_data}
+    except Exception as e:
+            # Handle exceptions (e.g., database connection error)
+            return f"Error fetching Reddit posts: {str(e)}"  
+    
+def degree_centrality(G): 
+    # Calculate degree centrality for each author
+    degree_centrality = nx.degree_centrality(G)
+
+    # Sort authors by degree centrality in descending order
+    sorted_authors_by_degree = sorted(degree_centrality.items(), key=lambda x: x[1], reverse=True)
+
+    # Print authors with the highest degree centrality values
+    num_top_authors = 5  # You can change this number to get more or fewer top authors
+    top_authors = sorted_authors_by_degree[:num_top_authors]
+
+    degree_centrality_data = []
+    for author, centrality in top_authors:
+        data = {
+            "node": author,
+            "centrality":centrality
+        }
+        degree_centrality_data.append(data)
+
+    return degree_centrality_data
+
+def betweenness_centrality(G):
+
+    # Calculate betweenness centrality
+    betweenness_centrality = nx.betweenness_centrality(G)
+    
+    num_top_authors = 5  # You can change this number to get more or fewer top authors
+    
+    # Sort authors by betweenness centrality in descending order
+    sorted_authors_by_betweenness = sorted(betweenness_centrality.items(), key=lambda x: x[1], reverse=True)
+
+    # Print authors with the highest betweenness centrality values
+    between_top_authors = sorted_authors_by_betweenness[:num_top_authors]
+
+    betweenness_centrality_data = []
+    for node, centrality in between_top_authors:
+        data = {
+            "node": node,
+            "centrality":centrality
+        }
+        betweenness_centrality_data.append(data)
+    return  betweenness_centrality_data   
+
+
+def closeness_centrality(G):
+
+    num_top_authors = 5  # You can change this number to get more or fewer top authors
+
+    # Calculate closeness centrality
+    closeness_centrality = nx.closeness_centrality(G)
+
+    # Sort authors by betweenness centrality in descending order
+    sorted_authors_by_closeness = sorted(closeness_centrality.items(), key=lambda x: x[1], reverse=True)
+
+    # Print authors with the highest betweenness centrality values
+    closeness_top_authors = sorted_authors_by_closeness[:num_top_authors]
+
+    centrality_centrality_data = []
+    for node, centrality in closeness_top_authors:
+        data = {
+            "node": node,
+            "centrality":centrality
+        }
+        centrality_centrality_data.append(data)
+
+    return centrality_centrality_data    
+

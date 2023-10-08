@@ -10,3 +10,4 @@ praw
 joblib
 pandas
 statsmodels
+networkx

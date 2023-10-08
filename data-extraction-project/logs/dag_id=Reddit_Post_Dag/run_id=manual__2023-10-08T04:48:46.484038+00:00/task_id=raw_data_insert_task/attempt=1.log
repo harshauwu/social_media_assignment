@@ -1,0 +1,33 @@
+[2023-10-08T04:49:18.384+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Reddit_Post_Dag.raw_data_insert_task manual__2023-10-08T04:48:46.484038+00:00 [queued]>
+[2023-10-08T04:49:18.405+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Reddit_Post_Dag.raw_data_insert_task manual__2023-10-08T04:48:46.484038+00:00 [queued]>
+[2023-10-08T04:49:18.407+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-08T04:49:18.430+0000] {taskinstance.py:1382} INFO - Executing <Task(RawDataTableOperator): raw_data_insert_task> on 2023-10-08 04:48:46.484038+00:00
+[2023-10-08T04:49:18.442+0000] {standard_task_runner.py:57} INFO - Started process 98 to run task
+[2023-10-08T04:49:18.448+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Reddit_Post_Dag', 'raw_data_insert_task', 'manual__2023-10-08T04:48:46.484038+00:00', '--job-id', '136', '--raw', '--subdir', 'DAGS_FOLDER/reddit_post_dag.py', '--cfg-path', '/tmp/tmp0wst0f_v']
+[2023-10-08T04:49:18.454+0000] {standard_task_runner.py:85} INFO - Job 136: Subtask raw_data_insert_task
+[2023-10-08T04:49:18.524+0000] {task_command.py:415} INFO - Running <TaskInstance: Reddit_Post_Dag.raw_data_insert_task manual__2023-10-08T04:48:46.484038+00:00 [running]> on host 8fc8b5f3ebc7
+[2023-10-08T04:49:18.633+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Reddit_Post_Dag' AIRFLOW_CTX_TASK_ID='raw_data_insert_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-08T04:48:46.484038+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-08T04:48:46.484038+00:00'
+[2023-10-08T04:49:18.636+0000] {raw_data_table_operator.py:27} INFO - Executing CustomMySqlOperator with data from task: extract_post_task
+[2023-10-08T04:49:18.920+0000] {sql.py:274} INFO - Executing: CREATE TABLE IF NOT EXISTS reddit_post_raw(id INT AUTO_INCREMENT PRIMARY KEY,title VARCHAR(255) DEFAULT NULL,score INT DEFAULT NULL,post_id INT DEFAULT NULL,url VARCHAR(255) DEFAULT NULL,comms_num INT DEFAULT NULL,created DATETIME DEFAULT NULL, body TEXT DEFAULT NULL,author VARCHAR(255) DEFAULT NULL,subreddit VARCHAR(255) DEFAULT NULL)
+[2023-10-08T04:49:18.928+0000] {base.py:73} INFO - Using connection ID 'mysql_connection' for task execution.
+[2023-10-08T04:49:18.942+0000] {base.py:73} INFO - Using connection ID 'mysql_connection' for task execution.
+[2023-10-08T04:49:18.990+0000] {sql.py:418} INFO - Running statement: CREATE TABLE IF NOT EXISTS reddit_post_raw(id INT AUTO_INCREMENT PRIMARY KEY,title VARCHAR(255) DEFAULT NULL,score INT DEFAULT NULL,post_id INT DEFAULT NULL,url VARCHAR(255) DEFAULT NULL,comms_num INT DEFAULT NULL,created DATETIME DEFAULT NULL, body TEXT DEFAULT NULL,author VARCHAR(255) DEFAULT NULL,subreddit VARCHAR(255) DEFAULT NULL), parameters: None
+[2023-10-08T04:49:19.004+0000] {sql.py:427} INFO - Rows affected: 0
+[2023-10-08T04:49:19.016+0000] {logging_mixin.py:151} INFO - mysql_connection
+[2023-10-08T04:49:19.241+0000] {logging_mixin.py:151} INFO -                                                  title  ...  subreddit
+0                              THEY WON THE UNION VOTE  ...  starbucks
+1                   60 Frappuccino’s with no tip… $279  ...  starbucks
+2               I'm not allowed to make signs anymore.  ...  starbucks
+3                          What did you get fired for?  ...  starbucks
+4                          An inspiration to us all 🙌🏻  ...  starbucks
+..                                                 ...  ...        ...
+992                                    it be like that  ...  starbucks
+993  Not sure which makes me happier, our raises or...  ...  starbucks
+994  What's your favorite moment of instant karma w...  ...  starbucks
+995        These modifications are getting ridiculous🙄  ...  starbucks
+996   My manager made the moment right in the best way  ...  starbucks
+
+[997 rows x 9 columns]
+[2023-10-08T04:49:19.515+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Reddit_Post_Dag, task_id=raw_data_insert_task, execution_date=20231008T044846, start_date=20231008T044918, end_date=20231008T044919
+[2023-10-08T04:49:19.595+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-08T04:49:19.634+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -44,3 +44,8 @@ def fetch_youtube_details():
 def fetch_predictive_views():
     predictive_views = social_media_controller.get_predict_views()
     return predictive_views
+
+@reddit_routes.route('/social-network-analysis', methods=['GET'])
+def fetch_analysis_details():
+    predictive_views = social_media_controller.social_network_analysis()
+    return predictive_views

@@ -1,0 +1,33 @@
+[2023-10-08T04:49:25.320+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Reddit_Post_Dag.processed_data_insert_task manual__2023-10-08T04:48:46.484038+00:00 [queued]>
+[2023-10-08T04:49:25.338+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Reddit_Post_Dag.processed_data_insert_task manual__2023-10-08T04:48:46.484038+00:00 [queued]>
+[2023-10-08T04:49:25.340+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-08T04:49:25.361+0000] {taskinstance.py:1382} INFO - Executing <Task(ProcessDataTableOperator): processed_data_insert_task> on 2023-10-08 04:48:46.484038+00:00
+[2023-10-08T04:49:25.370+0000] {standard_task_runner.py:57} INFO - Started process 110 to run task
+[2023-10-08T04:49:25.377+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Reddit_Post_Dag', 'processed_data_insert_task', 'manual__2023-10-08T04:48:46.484038+00:00', '--job-id', '138', '--raw', '--subdir', 'DAGS_FOLDER/reddit_post_dag.py', '--cfg-path', '/tmp/tmpq6iai42w']
+[2023-10-08T04:49:25.383+0000] {standard_task_runner.py:85} INFO - Job 138: Subtask processed_data_insert_task
+[2023-10-08T04:49:25.454+0000] {task_command.py:415} INFO - Running <TaskInstance: Reddit_Post_Dag.processed_data_insert_task manual__2023-10-08T04:48:46.484038+00:00 [running]> on host 8fc8b5f3ebc7
+[2023-10-08T04:49:25.570+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Reddit_Post_Dag' AIRFLOW_CTX_TASK_ID='processed_data_insert_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-08T04:48:46.484038+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-08T04:48:46.484038+00:00'
+[2023-10-08T04:49:25.572+0000] {process_data_table_operator.py:27} INFO - Executing CustomMySqlOperator with data from task: data_transformation_task
+[2023-10-08T04:49:25.837+0000] {sql.py:274} INFO - Executing: CREATE TABLE IF NOT EXISTS reddit_posts(id INT AUTO_INCREMENT PRIMARY KEY,title VARCHAR(255) DEFAULT NULL,score INT DEFAULT NULL,post_id INT DEFAULT NULL, url VARCHAR(255) DEFAULT NULL,comms_num INT DEFAULT NULL,created DATETIME DEFAULT NULL,created_date DATETIME DEFAULT NULL, created_time DATETIME DEFAULT NULL, body TEXT DEFAULT NULL, author VARCHAR(255) DEFAULT NULL,subreddit VARCHAR(255) DEFAULT NULL)
+[2023-10-08T04:49:25.848+0000] {base.py:73} INFO - Using connection ID 'mysql_connection' for task execution.
+[2023-10-08T04:49:25.859+0000] {base.py:73} INFO - Using connection ID 'mysql_connection' for task execution.
+[2023-10-08T04:49:25.875+0000] {sql.py:418} INFO - Running statement: CREATE TABLE IF NOT EXISTS reddit_posts(id INT AUTO_INCREMENT PRIMARY KEY,title VARCHAR(255) DEFAULT NULL,score INT DEFAULT NULL,post_id INT DEFAULT NULL, url VARCHAR(255) DEFAULT NULL,comms_num INT DEFAULT NULL,created DATETIME DEFAULT NULL,created_date DATETIME DEFAULT NULL, created_time DATETIME DEFAULT NULL, body TEXT DEFAULT NULL, author VARCHAR(255) DEFAULT NULL,subreddit VARCHAR(255) DEFAULT NULL), parameters: None
+[2023-10-08T04:49:25.881+0000] {sql.py:427} INFO - Rows affected: 0
+[2023-10-08T04:49:25.893+0000] {logging_mixin.py:151} INFO - mysql_connection
+[2023-10-08T04:49:25.987+0000] {logging_mixin.py:151} INFO -                                                  title  ...  created_time
+0                                           Why I quit  ...      12:47:54
+1    No one believed me when I said we had a cat in...  ...      18:23:58
+2           Malicious compliance for a dumb new policy  ...      05:07:43
+3                      I enraged a wild Karen today...  ...      19:15:38
+4         I drew an iced americano in coloured pencil:  ...      20:32:09
+..                                                 ...  ...           ...
+992                                          thoughts?  ...      13:37:23
+993     When customers don't want a remake or a refund  ...      11:31:43
+994                             Thought this was funny  ...      18:05:43
+995   Coworker drew this cute picture of us at work :)  ...      23:55:25
+996             I'm not allowed to make signs anymore.  ...      23:54:40
+
+[997 rows x 11 columns]
+[2023-10-08T04:49:26.306+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Reddit_Post_Dag, task_id=processed_data_insert_task, execution_date=20231008T044846, start_date=20231008T044925, end_date=20231008T044926
+[2023-10-08T04:49:26.357+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-08T04:49:26.385+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

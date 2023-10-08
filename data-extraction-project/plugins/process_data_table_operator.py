@@ -59,4 +59,4 @@ class ProcessDataTableOperator(BaseOperator):
         print(df)
 
         # Save the DataFrame to MySQL
-        df.to_sql(con=engine, name=self.table_name, if_exists='replace', index=False , chunksize=3000)
+        df.to_sql(con=engine, name=self.table_name, if_exists='append', index=False , chunksize=3000)

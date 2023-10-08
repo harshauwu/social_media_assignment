@@ -1,7 +1,7 @@
 # controllers/social_media_controller.py
 
 from flask import request, jsonify
-from services.social_media_service import get_all_reddit_posts, get_sentiment_data, get_reddit_data, get_youtube_data, get_reddit_like_forecasts, get_youtube_view_forecasts
+from services.social_media_service import get_all_reddit_posts, get_sentiment_data, get_reddit_data, get_youtube_data, get_reddit_like_forecasts, get_youtube_view_forecasts, get_network_analysis_details
 
 def get_reddit_scores():
     try:
@@ -76,6 +76,14 @@ def get_predict_views():
         posts = get_youtube_view_forecasts(forecast_periods)
         return jsonify({"data": posts}), 200
     
+    except Exception as e:
+            # Handle exceptions (e.g., database connection error)
+            return f"Error fetching Reddit posts: {str(e)}"
+    
+def social_network_analysis():
+    try:
+       network_details = get_network_analysis_details()  
+       return jsonify({"data": network_details}), 200  
     except Exception as e:
             # Handle exceptions (e.g., database connection error)
             return f"Error fetching Reddit posts: {str(e)}"
