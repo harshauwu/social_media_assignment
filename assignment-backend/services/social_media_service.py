@@ -11,6 +11,7 @@ import statsmodels.api as sm
 import json
 import networkx as nx
 
+
 def get_all_reddit_posts():
     """
     Retrieve all Reddit posts from the database.
@@ -102,7 +103,6 @@ def get_youtube_data():
         # Handle exceptions (e.g., database connection error)
         return f"Error fetching Reddit posts: {str(e)}"
     
-
 def get_reddit_like_forecasts(forecast_periods):
     """Generates forecasts for Reddit likes using a trained ARIMA model.
 
@@ -163,7 +163,6 @@ def get_reddit_like_forecasts(forecast_periods):
         # Return an error message if anything goes wrong
         return f"Error fetching Reddit posts: {str(e)}"
 
-
 def get_youtube_view_forecasts(forecast_periods):
 
     model_save_path = '/app/ml_models/arima/arima_youtube_view_model.pkl'
@@ -217,7 +216,6 @@ def get_youtube_view_forecasts(forecast_periods):
             # Handle exceptions (e.g., database connection error)
             return f"Error fetching Reddit posts: {str(e)}"        
 
-
 def get_network_analysis_details():
     try:
         relationships = []
@@ -250,13 +248,23 @@ def get_network_analysis_details():
             G.add_node(comment_author)
             
             # Add an edge between post author and comment author
-            G.add_edge(post_author, comment_author)   
-        
+            G.add_edge(post_author, comment_author)  
+
+        # Calculate the number of nodes (authors)
+        num_nodes = len(G.nodes)
+
+        # Calculate the number of edges (interactions)
+        num_edges = len(G.edges)
+
+        # Calculate the network density
+        density = nx.density(G)
+
+        basic_network_properties = {"number_of_nodes_(Authors)": num_nodes, "number_of_edges(Interactions)": num_edges, "network_density": density}
         degree_centrality_data = degree_centrality(G)
         betweenness_centrality_data = betweenness_centrality(G)
         closeness_centrality_data = closeness_centrality(G)
 
-        return {'degree_centrality': degree_centrality_data, 'betweenness_centrality': betweenness_centrality_data, 'closeness_centrality': closeness_centrality_data}
+        return {'basic_network_properties': basic_network_properties, 'degree_centrality': degree_centrality_data, 'betweenness_centrality': betweenness_centrality_data, 'closeness_centrality': closeness_centrality_data}
     except Exception as e:
             # Handle exceptions (e.g., database connection error)
             return f"Error fetching Reddit posts: {str(e)}"  
@@ -304,7 +312,6 @@ def betweenness_centrality(G):
         betweenness_centrality_data.append(data)
     return  betweenness_centrality_data   
 
-
 def closeness_centrality(G):
 
     num_top_authors = 5  # You can change this number to get more or fewer top authors
@@ -328,3 +335,70 @@ def closeness_centrality(G):
 
     return centrality_centrality_data    
 
+def create_social_network_graph():
+    
+    relationships = []
+    post_comments = RedditPostComment.query.all()
+    for comment in post_comments:
+        data = {
+            "post_author":comment.post_author,
+            "comment_auther": comment.comment_auther
+        }
+
+        # Append the relationships information to the list
+        relationships.append(data)
+
+    # Convert the list of dictionaries to a pandas DataFrame
+    df = pd.DataFrame(relationships)  
+
+    df = df.dropna(subset=['post_author', 'comment_auther'])
+
+    df['post_author'].fillna('Unknown', inplace=True)
+    df['comment_auther'].fillna('Unknown', inplace=True)
+
+    G = nx.Graph()
+    for index, row in df.iterrows():
+        post_author = row['post_author']
+        comment_author = row['comment_auther']
+        G.add_node(post_author)
+        G.add_node(comment_author)
+        G.add_edge(post_author, comment_author)
+    return G
+
+def detect_communities(G):
+    communities = list(nx.algorithms.community.greedy_modularity_communities(G))
+    return communities
+
+
+
+def visualize_social_network():
+    G = create_social_network_graph()
+    communities = detect_communities(G)
+
+    # # Convert the communities into the desired format
+    # formatted_communities = [list(community) for community in communities]
+
+    # return formatted_communities
+
+    # Convert the communities into the desired format for D3.js
+    nodes = []
+    links = []
+
+    for community_id, community in enumerate(communities):
+        for user in community:
+            # Create a node for each user
+            nodes.append({"id": user, "group": community_id})
+
+            # Create links within the community
+            for other_user in community:
+                if user != other_user:
+                    links.append({"source": user, "target": other_user})
+
+    formatted_data = {
+        "nodes": nodes,
+        "links": links
+    }
+
+    return formatted_data
+    # You can also perform graph visualization here if needed
+    # return render_template('index.html', communities=communities)

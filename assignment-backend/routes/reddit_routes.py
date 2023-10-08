@@ -49,3 +49,8 @@ def fetch_predictive_views():
 def fetch_analysis_details():
     predictive_views = social_media_controller.social_network_analysis()
     return predictive_views
+
+@reddit_routes.route('/visualize-social-network', methods=['GET'])
+def visualize_social_details():
+    predictive_views = social_media_controller.visualize_social_network()
+    return predictive_views
