@@ -1,0 +1,1057 @@
+[2023-10-06T00:28:25.127+0000] {processor.py:157} INFO - Started process (PID=2116) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T00:28:25.263+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T00:28:25.586+0000] {logging_mixin.py:151} INFO - [2023-10-06T00:28:25.457+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T00:28:29.097+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T00:28:30.835+0000] {logging_mixin.py:151} INFO - [2023-10-06T00:28:30.789+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T00:28:32.285+0000] {logging_mixin.py:151} INFO - [2023-10-06T00:28:32.266+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T00:28:33.462+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 9.014 seconds
+[2023-10-06T00:29:04.364+0000] {processor.py:157} INFO - Started process (PID=2128) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T00:29:04.367+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T00:29:04.370+0000] {logging_mixin.py:151} INFO - [2023-10-06T00:29:04.369+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T00:29:04.408+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T00:29:04.432+0000] {logging_mixin.py:151} INFO - [2023-10-06T00:29:04.431+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T00:29:04.450+0000] {logging_mixin.py:151} INFO - [2023-10-06T00:29:04.449+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T00:29:04.477+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.121 seconds
+[2023-10-06T02:06:15.808+0000] {processor.py:157} INFO - Started process (PID=2149) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:06:15.811+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:06:15.816+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:06:15.814+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:06:15.872+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:06:15.902+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:06:15.901+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:06:15.924+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:06:15.924+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:06:15.961+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.161 seconds
+[2023-10-06T02:06:58.729+0000] {processor.py:157} INFO - Started process (PID=2161) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:06:58.866+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:06:58.971+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:06:58.934+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:07:01.924+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:07:04.869+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:07:04.857+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:07:06.634+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:07:06.630+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:07:08.676+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 10.103 seconds
+[2023-10-06T02:07:40.195+0000] {processor.py:157} INFO - Started process (PID=2173) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:07:40.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:07:40.200+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:07:40.199+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:07:40.246+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:07:40.271+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:07:40.271+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:07:40.291+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:07:40.290+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:07:40.322+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.135 seconds
+[2023-10-06T02:08:10.869+0000] {processor.py:157} INFO - Started process (PID=2185) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:08:10.871+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:08:10.873+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:08:10.873+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:08:10.915+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:08:10.938+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:08:10.938+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:08:10.956+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:08:10.956+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:08:10.990+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.127 seconds
+[2023-10-06T02:08:41.523+0000] {processor.py:157} INFO - Started process (PID=2197) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:08:41.526+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:08:41.528+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:08:41.527+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:08:41.573+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:08:41.597+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:08:41.597+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:08:41.615+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:08:41.614+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:08:41.642+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.124 seconds
+[2023-10-06T02:09:12.139+0000] {processor.py:157} INFO - Started process (PID=2209) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:09:12.142+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:09:12.145+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:09:12.144+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:09:12.195+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:09:12.226+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:09:12.226+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:09:12.253+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:09:12.253+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:09:12.290+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.157 seconds
+[2023-10-06T02:09:42.804+0000] {processor.py:157} INFO - Started process (PID=2221) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:09:42.806+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:09:42.808+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:09:42.807+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:09:42.848+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:09:42.872+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:09:42.872+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:09:42.896+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:09:42.895+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:09:42.929+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.131 seconds
+[2023-10-06T02:10:13.469+0000] {processor.py:157} INFO - Started process (PID=2233) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:10:13.471+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:10:13.474+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:10:13.473+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:10:13.522+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:10:13.549+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:10:13.549+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:10:13.569+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:10:13.568+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:10:13.601+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.139 seconds
+[2023-10-06T02:10:44.224+0000] {processor.py:157} INFO - Started process (PID=2245) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:10:44.228+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:10:44.232+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:10:44.231+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:10:44.275+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:10:44.300+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:10:44.299+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:10:44.319+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:10:44.318+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:10:44.352+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.155 seconds
+[2023-10-06T02:11:14.872+0000] {processor.py:157} INFO - Started process (PID=2257) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:11:14.875+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:11:14.877+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:11:14.876+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:11:14.924+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:11:14.952+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:11:14.951+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:11:14.976+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:11:14.976+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:11:15.015+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.150 seconds
+[2023-10-06T02:11:45.612+0000] {processor.py:157} INFO - Started process (PID=2269) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:11:45.615+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:11:45.617+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:11:45.617+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:11:45.671+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:11:45.704+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:11:45.704+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:11:45.723+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:11:45.723+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:11:45.761+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.155 seconds
+[2023-10-06T02:12:16.289+0000] {processor.py:157} INFO - Started process (PID=2281) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:12:16.292+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:12:16.294+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:12:16.294+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:12:16.340+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:12:16.370+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:12:16.370+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:12:16.391+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:12:16.391+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:12:16.428+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.144 seconds
+[2023-10-06T02:12:46.964+0000] {processor.py:157} INFO - Started process (PID=2293) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:12:46.966+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:12:46.969+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:12:46.968+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:12:47.017+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:12:47.044+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:12:47.044+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:12:47.063+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:12:47.063+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:12:47.098+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.139 seconds
+[2023-10-06T02:13:17.629+0000] {processor.py:157} INFO - Started process (PID=2306) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:13:17.631+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:13:17.634+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:13:17.633+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:13:17.682+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:13:17.712+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:13:17.711+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:13:17.733+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:13:17.733+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:13:17.770+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.146 seconds
+[2023-10-06T02:13:48.245+0000] {processor.py:157} INFO - Started process (PID=2325) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:13:48.247+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:13:48.250+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:13:48.249+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:13:48.297+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:13:48.324+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:13:48.323+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:13:48.343+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:13:48.343+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:13:48.379+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.140 seconds
+[2023-10-06T02:14:18.887+0000] {processor.py:157} INFO - Started process (PID=2338) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:14:18.889+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:14:18.891+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:14:18.891+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:14:18.935+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:14:18.965+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:14:18.964+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:14:18.984+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:14:18.983+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:14:19.013+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.132 seconds
+[2023-10-06T02:14:49.582+0000] {processor.py:157} INFO - Started process (PID=2350) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:14:49.584+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:14:49.587+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:14:49.586+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:14:49.633+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:14:49.665+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:14:49.665+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:14:49.691+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:14:49.691+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:14:49.727+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.151 seconds
+[2023-10-06T02:15:20.225+0000] {processor.py:157} INFO - Started process (PID=2362) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:15:20.227+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:15:20.229+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:15:20.229+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:15:20.279+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:15:20.310+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:15:20.309+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:15:20.328+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:15:20.328+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:15:20.365+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.146 seconds
+[2023-10-06T02:15:50.896+0000] {processor.py:157} INFO - Started process (PID=2374) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:15:50.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:15:50.901+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:15:50.900+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:15:50.949+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:15:50.981+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:15:50.981+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:15:51.008+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:15:51.008+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:15:51.043+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.152 seconds
+[2023-10-06T02:16:21.636+0000] {processor.py:157} INFO - Started process (PID=2386) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:16:21.639+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:16:21.641+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:16:21.641+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:16:21.685+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:16:21.710+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:16:21.710+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:16:21.728+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:16:21.728+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:16:21.755+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.124 seconds
+[2023-10-06T02:16:52.299+0000] {processor.py:157} INFO - Started process (PID=2398) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:16:52.302+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:16:52.304+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:16:52.304+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:16:52.347+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:16:52.372+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:16:52.372+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:16:52.394+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:16:52.394+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:16:52.427+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.136 seconds
+[2023-10-06T02:17:23.000+0000] {processor.py:157} INFO - Started process (PID=2410) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:17:23.002+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:17:23.004+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:17:23.004+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:17:23.054+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:17:23.077+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:17:23.077+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:17:23.097+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:17:23.096+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:17:23.128+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.134 seconds
+[2023-10-06T02:17:53.681+0000] {processor.py:157} INFO - Started process (PID=2422) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:17:53.683+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:17:53.685+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:17:53.685+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:17:53.731+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:17:53.757+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:17:53.757+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:17:53.776+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:17:53.776+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:17:53.808+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.132 seconds
+[2023-10-06T02:18:24.360+0000] {processor.py:157} INFO - Started process (PID=2434) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:18:24.364+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:18:24.367+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:18:24.366+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:18:24.408+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:18:24.433+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:18:24.432+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:18:24.451+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:18:24.450+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:18:24.481+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.126 seconds
+[2023-10-06T02:18:55.014+0000] {processor.py:157} INFO - Started process (PID=2446) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:18:55.017+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:18:55.020+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:18:55.019+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:18:55.063+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:18:55.087+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:18:55.087+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:18:55.105+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:18:55.105+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:18:55.136+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.128 seconds
+[2023-10-06T02:19:25.694+0000] {processor.py:157} INFO - Started process (PID=2458) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:19:25.697+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:19:25.700+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:19:25.699+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:19:25.745+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:19:25.777+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:19:25.777+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:19:25.803+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:19:25.802+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:19:25.833+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.144 seconds
+[2023-10-06T02:19:56.317+0000] {processor.py:157} INFO - Started process (PID=2470) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:19:56.320+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:19:56.322+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:19:56.322+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:19:56.368+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:19:56.399+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:19:56.398+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:19:56.421+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:19:56.421+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:19:56.454+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.142 seconds
+[2023-10-06T02:20:27.051+0000] {processor.py:157} INFO - Started process (PID=2482) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:20:27.053+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:20:27.055+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:20:27.054+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:20:27.101+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:20:27.126+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:20:27.125+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:20:27.143+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:20:27.143+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:20:27.175+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.130 seconds
+[2023-10-06T02:20:57.696+0000] {processor.py:157} INFO - Started process (PID=2495) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:20:57.698+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:20:57.700+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:20:57.700+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:20:57.748+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:20:57.780+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:20:57.780+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:20:57.801+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:20:57.800+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:20:57.844+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.154 seconds
+[2023-10-06T02:21:28.452+0000] {processor.py:157} INFO - Started process (PID=2507) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:21:28.455+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:21:28.458+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:21:28.457+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:21:28.508+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:21:28.534+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:21:28.533+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:21:28.552+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:21:28.552+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:21:28.586+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.140 seconds
+[2023-10-06T02:21:59.121+0000] {processor.py:157} INFO - Started process (PID=2519) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:21:59.123+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:21:59.125+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:21:59.125+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:21:59.170+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:21:59.194+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:21:59.194+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:21:59.213+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:21:59.212+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:21:59.243+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.127 seconds
+[2023-10-06T02:22:29.753+0000] {processor.py:157} INFO - Started process (PID=2531) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:22:29.755+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:22:29.757+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:22:29.757+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:22:29.805+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:22:29.834+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:22:29.833+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:22:29.858+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:22:29.858+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:22:29.890+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.143 seconds
+[2023-10-06T02:23:00.419+0000] {processor.py:157} INFO - Started process (PID=2543) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:23:00.421+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:23:00.423+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:23:00.423+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:23:00.464+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:23:00.490+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:23:00.489+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:23:00.509+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:23:00.509+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:23:00.541+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.127 seconds
+[2023-10-06T02:23:31.097+0000] {processor.py:157} INFO - Started process (PID=2555) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:23:31.101+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:23:31.103+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:23:31.102+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:23:31.145+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:23:31.169+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:23:31.169+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:23:31.188+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:23:31.188+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:23:31.218+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.127 seconds
+[2023-10-06T02:24:01.775+0000] {processor.py:157} INFO - Started process (PID=2567) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:24:01.777+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:24:01.781+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:24:01.780+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:24:01.844+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:24:01.876+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:24:01.875+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:24:01.899+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:24:01.899+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:24:01.926+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.157 seconds
+[2023-10-06T02:24:32.429+0000] {processor.py:157} INFO - Started process (PID=2579) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:24:32.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:24:32.437+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:24:32.436+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:24:32.480+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:24:32.506+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:24:32.506+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:24:32.524+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:24:32.524+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:24:32.554+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.131 seconds
+[2023-10-06T02:25:03.062+0000] {processor.py:157} INFO - Started process (PID=2591) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:25:03.065+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:25:03.068+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:25:03.068+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:25:03.115+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:25:03.139+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:25:03.139+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:25:03.158+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:25:03.158+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:25:03.190+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.133 seconds
+[2023-10-06T02:25:33.713+0000] {processor.py:157} INFO - Started process (PID=2603) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:25:33.716+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:25:33.718+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:25:33.718+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:25:33.776+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:25:33.804+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:25:33.804+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:25:33.825+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:25:33.825+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:25:33.854+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.147 seconds
+[2023-10-06T02:26:04.368+0000] {processor.py:157} INFO - Started process (PID=2615) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:26:04.370+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:26:04.372+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:26:04.372+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:26:04.423+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:26:04.449+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:26:04.449+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:26:04.471+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:26:04.470+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:26:04.503+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.141 seconds
+[2023-10-06T02:26:35.064+0000] {processor.py:157} INFO - Started process (PID=2627) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:26:35.066+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:26:35.069+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:26:35.068+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:26:35.112+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:26:35.136+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:26:35.136+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:26:35.155+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:26:35.155+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:26:35.193+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.135 seconds
+[2023-10-06T02:27:05.710+0000] {processor.py:157} INFO - Started process (PID=2640) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:27:05.712+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:27:05.714+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:27:05.714+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:27:05.763+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:27:05.795+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:27:05.795+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:27:05.818+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:27:05.817+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:27:05.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.149 seconds
+[2023-10-06T02:27:36.385+0000] {processor.py:157} INFO - Started process (PID=2652) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:27:36.387+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:27:36.389+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:27:36.389+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:27:36.435+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:27:36.467+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:27:36.467+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:27:36.496+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:27:36.496+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:27:36.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.155 seconds
+[2023-10-06T02:28:07.007+0000] {processor.py:157} INFO - Started process (PID=2664) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:28:07.010+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:28:07.012+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:28:07.012+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:28:07.065+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:28:07.088+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:28:07.088+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:28:07.108+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:28:07.108+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:28:07.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.133 seconds
+[2023-10-06T02:28:37.664+0000] {processor.py:157} INFO - Started process (PID=2676) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:28:37.667+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:28:37.669+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:28:37.668+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:28:37.712+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:28:37.740+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:28:37.739+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:28:37.761+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:28:37.760+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:28:37.790+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.132 seconds
+[2023-10-06T02:29:08.346+0000] {processor.py:157} INFO - Started process (PID=2688) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:29:08.349+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:29:08.351+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:29:08.350+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:29:08.399+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:29:08.423+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:29:08.423+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:29:08.443+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:29:08.443+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:29:08.475+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.141 seconds
+[2023-10-06T02:29:39.026+0000] {processor.py:157} INFO - Started process (PID=2700) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:29:39.028+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:29:39.030+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:29:39.030+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:29:39.078+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:29:39.104+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:29:39.103+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:29:39.123+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:29:39.123+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:29:39.157+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.137 seconds
+[2023-10-06T02:30:09.738+0000] {processor.py:157} INFO - Started process (PID=2712) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:30:09.741+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:30:09.743+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:30:09.743+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:30:09.796+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:30:09.823+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:30:09.823+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:30:09.844+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:30:09.843+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:30:09.882+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.150 seconds
+[2023-10-06T02:30:40.471+0000] {processor.py:157} INFO - Started process (PID=2724) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:30:40.473+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:30:40.476+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:30:40.475+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:30:40.531+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:30:40.559+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:30:40.558+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:30:40.579+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:30:40.579+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:30:40.616+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.150 seconds
+[2023-10-06T02:31:11.202+0000] {processor.py:157} INFO - Started process (PID=2736) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:31:11.207+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:31:11.211+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:31:11.210+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:31:11.258+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:31:11.291+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:31:11.291+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:31:11.309+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:31:11.309+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:31:11.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.150 seconds
+[2023-10-06T02:31:41.893+0000] {processor.py:157} INFO - Started process (PID=2748) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:31:41.896+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:31:41.898+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:31:41.897+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:31:41.939+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:31:41.963+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:31:41.963+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:31:41.981+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:31:41.981+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:31:42.011+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.124 seconds
+[2023-10-06T02:32:12.567+0000] {processor.py:157} INFO - Started process (PID=2760) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:32:12.569+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:32:12.572+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:32:12.571+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:32:12.615+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:32:12.639+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:32:12.639+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:32:12.657+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:32:12.657+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:32:12.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.128 seconds
+[2023-10-06T02:32:43.206+0000] {processor.py:157} INFO - Started process (PID=2772) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:32:43.209+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:32:43.212+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:32:43.211+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:32:43.262+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:32:43.288+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:32:43.288+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:32:43.307+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:32:43.307+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:32:43.338+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.138 seconds
+[2023-10-06T02:33:13.878+0000] {processor.py:157} INFO - Started process (PID=2785) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:33:13.881+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:33:13.883+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:33:13.882+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:33:13.926+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:33:13.958+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:33:13.958+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:33:13.978+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:33:13.978+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:33:14.005+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.133 seconds
+[2023-10-06T02:33:44.598+0000] {processor.py:157} INFO - Started process (PID=2798) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:33:44.601+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:33:44.604+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:33:44.603+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:33:44.650+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:33:44.675+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:33:44.675+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:33:44.694+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:33:44.694+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:33:44.725+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.132 seconds
+[2023-10-06T02:34:15.244+0000] {processor.py:157} INFO - Started process (PID=2810) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:34:15.247+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:34:15.249+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:34:15.249+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:34:15.301+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:34:15.326+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:34:15.326+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:34:15.352+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:34:15.351+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:34:15.396+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.158 seconds
+[2023-10-06T02:34:45.916+0000] {processor.py:157} INFO - Started process (PID=2822) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:34:45.919+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:34:45.922+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:34:45.921+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:34:45.970+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:34:46.004+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:34:46.004+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:34:46.031+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:34:46.030+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:34:46.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.154 seconds
+[2023-10-06T02:35:16.603+0000] {processor.py:157} INFO - Started process (PID=2834) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:35:16.605+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:35:16.608+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:35:16.607+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:35:16.654+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:35:16.681+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:35:16.681+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:35:16.701+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:35:16.701+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:35:16.729+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.132 seconds
+[2023-10-06T02:35:47.269+0000] {processor.py:157} INFO - Started process (PID=2845) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:35:47.271+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:35:47.274+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:35:47.273+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:35:47.319+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:35:47.344+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:35:47.344+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:35:47.366+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:35:47.366+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:35:47.397+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.136 seconds
+[2023-10-06T02:36:17.991+0000] {processor.py:157} INFO - Started process (PID=2857) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:36:17.993+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:36:17.995+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:36:17.995+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:36:18.042+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:36:18.068+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:36:18.067+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:36:18.088+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:36:18.088+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:36:18.115+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.130 seconds
+[2023-10-06T02:36:48.672+0000] {processor.py:157} INFO - Started process (PID=2869) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:36:48.675+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:36:48.677+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:36:48.677+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:36:48.725+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:36:48.753+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:36:48.752+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:36:48.774+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:36:48.773+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:36:48.805+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.138 seconds
+[2023-10-06T02:37:19.316+0000] {processor.py:157} INFO - Started process (PID=2881) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:37:19.318+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:37:19.320+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:37:19.320+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:37:19.365+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:37:19.389+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:37:19.389+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:37:19.407+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:37:19.407+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:37:19.438+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.128 seconds
+[2023-10-06T02:37:49.994+0000] {processor.py:157} INFO - Started process (PID=2893) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:37:49.996+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:37:49.999+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:37:49.998+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:37:50.044+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:37:50.068+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:37:50.068+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:37:50.086+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:37:50.086+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:37:50.120+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.131 seconds
+[2023-10-06T02:38:20.651+0000] {processor.py:157} INFO - Started process (PID=2905) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:38:20.653+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:38:20.656+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:38:20.655+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:38:20.703+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:38:20.732+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:38:20.731+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:38:20.754+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:38:20.753+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:38:20.796+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.150 seconds
+[2023-10-06T02:38:51.325+0000] {processor.py:157} INFO - Started process (PID=2925) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:38:51.330+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:38:51.332+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:38:51.331+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:38:51.377+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:38:51.401+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:38:51.401+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:38:51.422+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:38:51.421+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:38:51.454+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.135 seconds
+[2023-10-06T02:39:22.074+0000] {processor.py:157} INFO - Started process (PID=2937) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:39:22.076+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:39:22.078+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:39:22.077+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:39:22.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:39:22.156+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:39:22.154+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:39:22.197+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:39:22.196+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:39:22.234+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.166 seconds
+[2023-10-06T02:39:52.822+0000] {processor.py:157} INFO - Started process (PID=2949) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:39:52.825+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:39:52.828+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:39:52.827+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:39:52.873+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:39:52.897+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:39:52.897+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:39:52.916+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:39:52.915+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:39:52.943+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.127 seconds
+[2023-10-06T02:40:23.530+0000] {processor.py:157} INFO - Started process (PID=2961) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:40:23.533+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:40:23.535+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:40:23.534+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:40:23.580+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:40:23.613+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:40:23.613+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:40:23.633+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:40:23.633+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:40:23.665+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.140 seconds
+[2023-10-06T02:40:54.267+0000] {processor.py:157} INFO - Started process (PID=2973) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:40:54.271+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:40:54.274+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:40:54.273+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:40:54.319+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:40:54.345+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:40:54.345+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:40:54.373+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:40:54.373+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:40:54.410+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.148 seconds
+[2023-10-06T02:41:24.929+0000] {processor.py:157} INFO - Started process (PID=2985) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:41:24.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:41:24.934+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:41:24.933+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:41:24.979+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:41:25.003+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:41:25.003+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:41:25.022+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:41:25.022+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:41:25.055+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.132 seconds
+[2023-10-06T02:41:55.609+0000] {processor.py:157} INFO - Started process (PID=2997) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:41:55.611+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:41:55.615+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:41:55.614+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:41:55.658+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:41:55.682+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:41:55.682+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:41:55.701+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:41:55.701+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:41:55.733+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.129 seconds
+[2023-10-06T02:42:26.257+0000] {processor.py:157} INFO - Started process (PID=3009) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:42:26.260+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:42:26.263+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:42:26.261+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:42:26.308+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:42:26.333+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:42:26.332+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:42:26.356+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:42:26.356+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:42:26.387+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.135 seconds
+[2023-10-06T02:42:56.894+0000] {processor.py:157} INFO - Started process (PID=3021) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:42:56.896+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:42:56.900+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:42:56.899+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:42:56.944+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:42:56.967+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:42:56.967+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:42:56.985+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:42:56.984+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:42:57.015+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.127 seconds
+[2023-10-06T02:43:27.549+0000] {processor.py:157} INFO - Started process (PID=3033) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:43:27.552+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:43:27.555+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:43:27.554+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:43:27.602+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:43:27.627+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:43:27.627+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:43:27.646+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:43:27.645+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:43:27.685+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.142 seconds
+[2023-10-06T02:43:58.230+0000] {processor.py:157} INFO - Started process (PID=3045) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:43:58.232+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:43:58.235+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:43:58.234+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:43:58.282+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:43:58.307+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:43:58.306+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:43:58.327+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:43:58.326+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:43:58.358+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.134 seconds
+[2023-10-06T02:44:28.900+0000] {processor.py:157} INFO - Started process (PID=3057) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:44:28.902+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:44:28.904+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:44:28.904+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:44:28.951+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:44:28.978+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:44:28.977+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:44:28.996+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:44:28.996+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:44:29.027+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.132 seconds
+[2023-10-06T02:44:59.567+0000] {processor.py:157} INFO - Started process (PID=3069) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:44:59.570+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:44:59.574+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:44:59.572+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:44:59.624+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:44:59.648+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:44:59.648+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:44:59.668+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:44:59.667+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:44:59.697+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.137 seconds
+[2023-10-06T02:45:30.224+0000] {processor.py:157} INFO - Started process (PID=3081) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:45:30.227+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:45:30.229+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:45:30.229+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:45:30.277+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:45:30.303+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:45:30.303+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:45:30.321+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:45:30.321+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:45:30.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.135 seconds
+[2023-10-06T02:46:00.860+0000] {processor.py:157} INFO - Started process (PID=3092) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:46:00.862+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:46:00.865+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:46:00.864+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:46:00.909+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:46:00.933+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:46:00.933+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:46:00.952+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:46:00.952+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:46:00.996+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.141 seconds
+[2023-10-06T02:46:31.592+0000] {processor.py:157} INFO - Started process (PID=3104) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:46:31.594+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:46:31.596+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:46:31.596+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:46:31.643+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:46:31.678+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:46:31.677+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:46:31.707+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:46:31.707+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:46:31.738+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.152 seconds
+[2023-10-06T02:47:02.250+0000] {processor.py:157} INFO - Started process (PID=3116) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:47:02.252+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:47:02.254+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:47:02.254+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:47:02.308+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:47:02.335+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:47:02.335+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:47:02.354+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:47:02.354+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:47:02.385+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.142 seconds
+[2023-10-06T02:47:32.912+0000] {processor.py:157} INFO - Started process (PID=3127) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:47:32.914+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:47:32.917+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:47:32.916+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:47:32.966+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:47:32.990+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:47:32.990+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:47:33.008+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:47:33.007+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:47:33.035+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.128 seconds
+[2023-10-06T02:48:03.593+0000] {processor.py:157} INFO - Started process (PID=3139) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:48:03.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:48:03.597+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:48:03.597+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:48:03.642+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:48:03.666+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:48:03.666+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:48:03.684+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:48:03.684+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:48:03.717+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.130 seconds
+[2023-10-06T02:48:34.271+0000] {processor.py:157} INFO - Started process (PID=3151) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:48:34.273+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:48:34.276+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:48:34.276+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:48:34.323+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:48:34.348+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:48:34.347+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:48:34.366+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:48:34.366+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:48:34.398+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.133 seconds
+[2023-10-06T02:49:04.953+0000] {processor.py:157} INFO - Started process (PID=3163) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:49:04.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:49:04.958+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:49:04.958+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:49:05.002+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:49:05.026+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:49:05.026+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:49:05.044+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:49:05.043+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:49:05.076+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.128 seconds
+[2023-10-06T02:49:35.668+0000] {processor.py:157} INFO - Started process (PID=3175) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:49:35.671+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:49:35.673+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:49:35.673+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:49:35.728+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:49:35.755+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:49:35.754+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:49:35.775+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:49:35.774+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:49:35.819+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.156 seconds
+[2023-10-06T02:50:06.372+0000] {processor.py:157} INFO - Started process (PID=3187) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:50:06.374+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:50:06.377+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:50:06.376+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:50:06.422+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:50:06.447+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:50:06.446+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:50:06.465+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:50:06.464+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:50:06.495+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.129 seconds
+[2023-10-06T02:50:37.047+0000] {processor.py:157} INFO - Started process (PID=3200) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:50:37.050+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:50:37.052+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:50:37.051+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:50:37.106+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:50:37.140+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:50:37.139+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:50:37.168+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:50:37.167+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:50:37.207+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.166 seconds
+[2023-10-06T02:51:07.715+0000] {processor.py:157} INFO - Started process (PID=3213) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:51:07.717+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:51:07.720+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:51:07.719+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:51:07.763+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:51:07.787+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:51:07.787+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:51:07.806+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:51:07.805+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:51:07.837+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.128 seconds
+[2023-10-06T02:51:38.338+0000] {processor.py:157} INFO - Started process (PID=3225) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:51:38.341+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:51:38.343+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:51:38.342+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:51:38.398+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:51:38.427+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:51:38.426+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:51:38.445+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:51:38.445+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:51:38.474+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.141 seconds
+[2023-10-06T02:52:09.002+0000] {processor.py:157} INFO - Started process (PID=3237) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:52:09.005+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:52:09.008+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:52:09.007+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:52:09.064+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:52:09.091+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:52:09.090+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:52:09.109+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:52:09.109+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:52:09.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.146 seconds
+[2023-10-06T02:52:39.664+0000] {processor.py:157} INFO - Started process (PID=3249) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:52:39.667+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:52:39.670+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:52:39.669+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:52:39.721+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:52:39.747+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:52:39.747+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:52:39.770+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:52:39.770+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:52:39.800+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.142 seconds
+[2023-10-06T02:53:10.330+0000] {processor.py:157} INFO - Started process (PID=3261) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:53:10.333+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:53:10.335+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:53:10.335+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:53:10.378+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:53:10.403+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:53:10.403+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:53:10.421+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:53:10.421+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:53:10.448+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.124 seconds
+[2023-10-06T02:53:40.955+0000] {processor.py:157} INFO - Started process (PID=3274) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:53:40.957+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:53:40.960+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:53:40.959+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:53:41.006+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:53:41.030+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:53:41.030+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:53:41.048+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:53:41.048+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:53:41.079+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.129 seconds
+[2023-10-06T02:54:11.643+0000] {processor.py:157} INFO - Started process (PID=3286) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:54:11.645+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:54:11.647+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:54:11.647+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:54:11.696+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:54:11.723+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:54:11.723+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:54:11.742+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:54:11.741+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:54:11.774+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.136 seconds
+[2023-10-06T02:54:42.329+0000] {processor.py:157} INFO - Started process (PID=3298) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:54:42.333+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:54:42.336+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:54:42.335+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:54:42.380+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:54:42.406+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:54:42.406+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:54:42.425+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:54:42.425+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:54:42.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.134 seconds
+[2023-10-06T02:55:12.968+0000] {processor.py:157} INFO - Started process (PID=3310) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:55:12.971+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:55:12.973+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:55:12.972+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:55:13.018+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:55:13.055+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:55:13.055+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:55:13.081+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:55:13.080+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:55:13.110+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.148 seconds
+[2023-10-06T02:55:43.653+0000] {processor.py:157} INFO - Started process (PID=3322) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:55:43.655+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:55:43.657+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:55:43.657+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:55:43.699+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:55:43.729+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:55:43.728+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:55:43.747+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:55:43.747+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:55:43.778+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.131 seconds
+[2023-10-06T02:56:14.354+0000] {processor.py:157} INFO - Started process (PID=3334) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:56:14.357+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:56:14.359+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:56:14.358+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:56:14.403+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:56:14.427+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:56:14.426+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:56:14.444+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:56:14.444+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:56:14.477+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.128 seconds
+[2023-10-06T02:56:45.027+0000] {processor.py:157} INFO - Started process (PID=3346) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:56:45.030+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:56:45.032+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:56:45.031+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:56:45.074+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:56:45.101+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:56:45.100+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:56:45.129+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:56:45.128+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:56:45.172+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.151 seconds
+[2023-10-06T02:57:15.744+0000] {processor.py:157} INFO - Started process (PID=3358) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:57:15.749+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:57:15.753+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:57:15.752+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:57:15.914+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:57:15.991+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:57:15.990+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:57:16.029+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:57:16.028+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:57:17.024+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 1.260 seconds
+[2023-10-06T02:57:48.236+0000] {processor.py:157} INFO - Started process (PID=3370) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:57:48.239+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:57:48.241+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:57:48.240+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:57:48.290+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:57:48.316+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:57:48.315+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:57:48.333+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:57:48.333+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:57:48.366+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.136 seconds
+[2023-10-06T02:58:18.927+0000] {processor.py:157} INFO - Started process (PID=3383) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:58:18.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:58:18.933+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:58:18.933+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:58:18.993+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:58:19.024+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:58:19.023+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:58:19.041+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:58:19.041+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:58:19.078+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.157 seconds
+[2023-10-06T02:58:49.580+0000] {processor.py:157} INFO - Started process (PID=3395) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:58:49.582+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:58:49.585+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:58:49.584+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:58:49.633+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:58:49.658+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:58:49.657+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:58:49.691+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:58:49.690+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:58:49.729+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.157 seconds
+[2023-10-06T02:59:20.293+0000] {processor.py:157} INFO - Started process (PID=3407) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:59:20.299+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:59:20.301+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:59:20.301+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:59:20.363+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:59:20.389+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:59:20.388+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:59:20.412+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:59:20.412+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:59:20.448+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.160 seconds
+[2023-10-06T02:59:51.033+0000] {processor.py:157} INFO - Started process (PID=3419) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:59:51.035+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T02:59:51.037+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:59:51.036+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:59:51.080+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T02:59:51.104+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:59:51.103+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T02:59:51.122+0000] {logging_mixin.py:151} INFO - [2023-10-06T02:59:51.122+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T02:59:51.153+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.126 seconds
+[2023-10-06T03:00:21.669+0000] {processor.py:157} INFO - Started process (PID=3431) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:00:21.671+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:00:21.673+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:00:21.673+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:00:21.720+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:00:21.747+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:00:21.747+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:00:21.766+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:00:21.765+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:00:21.802+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.139 seconds
+[2023-10-06T03:00:52.285+0000] {processor.py:157} INFO - Started process (PID=3443) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:00:52.287+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:00:52.289+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:00:52.289+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:00:52.332+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:00:52.357+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:00:52.356+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:00:52.377+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:00:52.376+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:00:52.408+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.129 seconds
+[2023-10-06T03:01:23.030+0000] {processor.py:157} INFO - Started process (PID=3455) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:01:23.032+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:01:23.035+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:01:23.035+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:01:23.087+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:01:23.122+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:01:23.122+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:01:23.141+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:01:23.141+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:01:23.170+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.146 seconds
+[2023-10-06T03:01:53.685+0000] {processor.py:157} INFO - Started process (PID=3474) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:01:53.688+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:01:53.695+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:01:53.693+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:01:53.744+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:01:53.769+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:01:53.768+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:01:53.787+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:01:53.787+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:01:53.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.141 seconds
+[2023-10-06T03:02:24.330+0000] {processor.py:157} INFO - Started process (PID=3486) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:02:24.333+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:02:24.335+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:02:24.334+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:02:24.380+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:02:24.411+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:02:24.411+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:02:24.443+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:02:24.443+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:02:24.483+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.159 seconds
+[2023-10-06T03:02:54.986+0000] {processor.py:157} INFO - Started process (PID=3498) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:02:54.988+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:02:54.990+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:02:54.990+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:02:55.033+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:02:55.058+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:02:55.058+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:02:55.077+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:02:55.077+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:02:55.115+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.134 seconds
+[2023-10-06T03:03:25.626+0000] {processor.py:157} INFO - Started process (PID=3510) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:03:25.629+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:03:25.631+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:03:25.631+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:03:25.680+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:03:25.718+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:03:25.717+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:03:25.736+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:03:25.736+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:03:25.777+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.156 seconds
+[2023-10-06T03:03:56.326+0000] {processor.py:157} INFO - Started process (PID=3522) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:03:56.329+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:03:56.332+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:03:56.331+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:03:56.377+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:03:56.403+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:03:56.403+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:03:56.421+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:03:56.420+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:03:56.451+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.140 seconds
+[2023-10-06T03:04:26.970+0000] {processor.py:157} INFO - Started process (PID=3534) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:04:26.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:04:26.975+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:04:26.974+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:04:27.018+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:04:27.047+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:04:27.047+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:04:27.066+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:04:27.066+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:04:27.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.134 seconds
+[2023-10-06T03:04:57.603+0000] {processor.py:157} INFO - Started process (PID=3546) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:04:57.607+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:04:57.610+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:04:57.609+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:04:57.655+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:04:57.679+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:04:57.679+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:04:57.698+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:04:57.698+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:04:57.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.132 seconds
+[2023-10-06T03:05:28.234+0000] {processor.py:157} INFO - Started process (PID=3558) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:05:28.238+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:05:28.242+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:05:28.241+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:05:28.300+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:05:28.325+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:05:28.324+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:05:28.343+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:05:28.343+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:05:28.375+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.148 seconds
+[2023-10-06T03:05:58.899+0000] {processor.py:157} INFO - Started process (PID=3570) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:05:58.902+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:05:58.904+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:05:58.903+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:05:58.954+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:05:58.979+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:05:58.979+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:05:59.000+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:05:58.999+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:05:59.031+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.138 seconds
+[2023-10-06T03:06:29.608+0000] {processor.py:157} INFO - Started process (PID=3582) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:06:29.611+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:06:29.614+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:06:29.613+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:06:29.663+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:06:29.687+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:06:29.686+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:06:29.706+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:06:29.706+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:06:29.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.134 seconds
+[2023-10-06T03:07:00.301+0000] {processor.py:157} INFO - Started process (PID=3594) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:07:00.304+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:07:00.306+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:07:00.305+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:07:00.354+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:07:00.379+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:07:00.379+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:07:00.397+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:07:00.397+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:07:00.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.133 seconds
+[2023-10-06T03:07:30.968+0000] {processor.py:157} INFO - Started process (PID=3606) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:07:30.972+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:07:30.976+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:07:30.975+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:07:31.021+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:07:31.045+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:07:31.044+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:07:31.073+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:07:31.072+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:07:31.101+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.139 seconds
+[2023-10-06T03:08:01.642+0000] {processor.py:157} INFO - Started process (PID=3618) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:08:01.645+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:08:01.647+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:08:01.647+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:08:01.699+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:08:01.726+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:08:01.726+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:08:01.754+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:08:01.754+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:08:01.797+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.161 seconds
+[2023-10-06T03:08:32.297+0000] {processor.py:157} INFO - Started process (PID=3630) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:08:32.303+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:08:32.305+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:08:32.304+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:08:32.360+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:08:32.396+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:08:32.396+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:08:32.422+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:08:32.421+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:08:32.475+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.192 seconds
+[2023-10-06T03:09:02.968+0000] {processor.py:157} INFO - Started process (PID=3643) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:09:02.975+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:09:02.978+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:02.977+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:09:03.031+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:09:03.060+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:03.059+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:09:03.087+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:03.086+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:09:03.132+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.170 seconds
+[2023-10-06T03:09:33.633+0000] {processor.py:157} INFO - Started process (PID=3655) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:09:33.635+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:09:33.638+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:33.637+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:09:33.685+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:09:33.713+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:33.712+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:09:33.737+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:09:33.737+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:09:33.772+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.144 seconds
+[2023-10-06T03:10:04.317+0000] {processor.py:157} INFO - Started process (PID=3667) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:10:04.323+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:10:04.326+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:04.325+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:10:04.421+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:10:04.480+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:04.480+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:10:04.524+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:04.523+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:10:04.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.272 seconds
+[2023-10-06T03:10:34.774+0000] {processor.py:157} INFO - Started process (PID=3679) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:10:34.778+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:10:34.782+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:34.781+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:10:34.855+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:10:34.889+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:34.889+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:10:34.917+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:10:34.916+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:10:34.968+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.202 seconds
+[2023-10-06T03:11:05.570+0000] {processor.py:157} INFO - Started process (PID=3691) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:11:05.578+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:11:05.585+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:05.583+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:11:05.716+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:11:05.753+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:05.753+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:11:05.777+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:05.776+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:11:05.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.260 seconds
+[2023-10-06T03:11:36.469+0000] {processor.py:157} INFO - Started process (PID=3703) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:11:36.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:11:36.474+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:36.474+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:11:36.530+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:11:36.556+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:36.556+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:11:36.574+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:11:36.574+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:11:36.603+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.140 seconds
+[2023-10-06T03:12:07.167+0000] {processor.py:157} INFO - Started process (PID=3715) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:12:07.170+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:12:07.173+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:07.173+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:12:07.229+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:12:07.256+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:07.256+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:12:07.280+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:07.279+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:12:07.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.159 seconds
+[2023-10-06T03:12:37.835+0000] {processor.py:157} INFO - Started process (PID=3727) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:12:37.839+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:12:37.842+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:37.841+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:12:37.900+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:12:37.926+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:37.926+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:12:37.946+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:12:37.946+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:12:37.988+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.158 seconds
+[2023-10-06T03:13:08.549+0000] {processor.py:157} INFO - Started process (PID=3740) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:13:08.551+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:13:08.555+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:08.553+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:13:08.604+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:13:08.631+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:08.631+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:13:08.656+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:08.655+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:13:08.699+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.156 seconds
+[2023-10-06T03:13:39.263+0000] {processor.py:157} INFO - Started process (PID=3752) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:13:39.265+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:13:39.267+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:39.267+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:13:39.311+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:13:39.335+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:39.335+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:13:39.353+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:13:39.353+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:13:39.385+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.127 seconds
+[2023-10-06T03:14:09.928+0000] {processor.py:157} INFO - Started process (PID=3764) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:14:09.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:14:09.933+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:09.933+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:14:09.991+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:14:10.024+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:10.024+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:14:10.051+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:10.051+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:14:10.092+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.175 seconds
+[2023-10-06T03:14:40.652+0000] {processor.py:157} INFO - Started process (PID=3776) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:14:40.655+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:14:40.658+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:40.657+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:14:40.709+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:14:40.741+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:40.741+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:14:40.761+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:14:40.761+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:14:40.791+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.146 seconds
+[2023-10-06T03:15:11.358+0000] {processor.py:157} INFO - Started process (PID=3788) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:15:11.361+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:15:11.364+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:11.363+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:15:11.413+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:15:11.444+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:11.443+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:15:11.462+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:11.462+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:15:11.494+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.141 seconds
+[2023-10-06T03:15:42.016+0000] {processor.py:157} INFO - Started process (PID=3800) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:15:42.019+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:15:42.025+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:42.022+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:15:42.079+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:15:42.109+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:42.109+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:15:42.136+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:15:42.135+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:15:42.157+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.170 seconds
+[2023-10-06T03:16:12.738+0000] {processor.py:157} INFO - Started process (PID=3812) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:16:12.741+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:16:12.745+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:12.744+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:16:12.808+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:16:12.862+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:12.861+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:16:12.886+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:12.886+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:16:12.915+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.184 seconds
+[2023-10-06T03:16:43.464+0000] {processor.py:157} INFO - Started process (PID=3824) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:16:43.482+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:16:43.503+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:43.502+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:16:43.546+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:16:43.570+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:43.570+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:16:43.590+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:16:43.589+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:16:43.627+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.169 seconds
+[2023-10-06T03:17:14.144+0000] {processor.py:157} INFO - Started process (PID=3836) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:17:14.147+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:17:14.150+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:17:14.149+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:17:14.206+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:17:14.239+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:17:14.239+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:17:14.265+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:17:14.265+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:17:14.304+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.166 seconds
+[2023-10-06T03:17:44.885+0000] {processor.py:157} INFO - Started process (PID=3848) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:17:44.888+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:17:44.890+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:17:44.890+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:17:44.938+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:17:44.969+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:17:44.968+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:17:44.988+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:17:44.988+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:17:45.019+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.140 seconds
+[2023-10-06T03:18:15.540+0000] {processor.py:157} INFO - Started process (PID=3860) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:18:15.544+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:18:15.546+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:15.545+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:18:15.591+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:18:15.615+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:15.615+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:18:15.633+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:15.632+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:18:15.668+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.134 seconds
+[2023-10-06T03:18:46.209+0000] {processor.py:157} INFO - Started process (PID=3872) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:18:46.212+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:18:46.214+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:46.214+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:18:46.259+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:18:46.293+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:46.293+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:18:46.328+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:18:46.328+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:18:46.368+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.166 seconds
+[2023-10-06T03:19:16.880+0000] {processor.py:157} INFO - Started process (PID=3884) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:19:16.884+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:19:16.888+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:16.887+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:19:16.957+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:19:16.984+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:16.984+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:19:17.007+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:17.007+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:19:17.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.170 seconds
+[2023-10-06T03:19:47.599+0000] {processor.py:157} INFO - Started process (PID=3897) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:19:47.602+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:19:47.605+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:47.605+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:19:47.645+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:19:47.669+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:47.669+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:19:47.687+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:19:47.687+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:19:47.717+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.124 seconds
+[2023-10-06T03:20:18.231+0000] {processor.py:157} INFO - Started process (PID=3909) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:20:18.234+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:20:18.236+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:18.236+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:20:18.279+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:20:18.304+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:18.303+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:20:18.321+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:18.321+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:20:18.354+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.128 seconds
+[2023-10-06T03:20:48.893+0000] {processor.py:157} INFO - Started process (PID=3921) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:20:48.896+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:20:48.901+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:48.900+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:20:48.947+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:20:48.972+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:48.971+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:20:48.990+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:20:48.990+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:20:49.022+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.135 seconds
+[2023-10-06T03:21:19.553+0000] {processor.py:157} INFO - Started process (PID=3933) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:21:19.557+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:21:19.562+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:19.561+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:21:19.621+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:21:19.653+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:19.652+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:21:19.681+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:21:19.680+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:21:19.722+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.185 seconds
+[2023-10-06T03:50:08.601+0000] {processor.py:157} INFO - Started process (PID=35) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:50:08.604+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:50:08.609+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:08.609+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:50:08.680+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:50:09.153+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:09.153+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:50:09.213+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:09.212+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:50:11.708+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 3.134 seconds
+[2023-10-06T03:50:42.116+0000] {processor.py:157} INFO - Started process (PID=54) to work on /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:50:42.118+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/youTube_video_data_dag.py for tasks to queue
+[2023-10-06T03:50:42.123+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:42.122+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:50:42.199+0000] {processor.py:839} INFO - DAG(s) dict_keys(['YouTube_Post_Dag']) retrieved from /opt/airflow/dags/youTube_video_data_dag.py
+[2023-10-06T03:50:42.240+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:42.240+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-10-06T03:50:42.272+0000] {logging_mixin.py:151} INFO - [2023-10-06T03:50:42.272+0000] {dag.py:3677} INFO - Setting next_dagrun for YouTube_Post_Dag to None, run_after=None
+[2023-10-06T03:50:42.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/youTube_video_data_dag.py took 0.199 seconds

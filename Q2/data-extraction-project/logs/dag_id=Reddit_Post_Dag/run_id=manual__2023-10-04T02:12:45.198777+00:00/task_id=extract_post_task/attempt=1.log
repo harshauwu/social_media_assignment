@@ -1,0 +1,26 @@
+[2023-10-04T02:12:46.854+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Reddit_Post_Dag.extract_post_task manual__2023-10-04T02:12:45.198777+00:00 [queued]>
+[2023-10-04T02:12:46.869+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Reddit_Post_Dag.extract_post_task manual__2023-10-04T02:12:45.198777+00:00 [queued]>
+[2023-10-04T02:12:46.871+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-04T02:12:46.893+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_post_task> on 2023-10-04 02:12:45.198777+00:00
+[2023-10-04T02:12:46.901+0000] {standard_task_runner.py:57} INFO - Started process 3140 to run task
+[2023-10-04T02:12:46.907+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Reddit_Post_Dag', 'extract_post_task', 'manual__2023-10-04T02:12:45.198777+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/reddit_post_dag.py', '--cfg-path', '/tmp/tmp638wrk8n']
+[2023-10-04T02:12:46.914+0000] {standard_task_runner.py:85} INFO - Job 13: Subtask extract_post_task
+[2023-10-04T02:12:46.990+0000] {task_command.py:415} INFO - Running <TaskInstance: Reddit_Post_Dag.extract_post_task manual__2023-10-04T02:12:45.198777+00:00 [running]> on host a82955aebbba
+[2023-10-04T02:12:47.337+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Reddit_Post_Dag' AIRFLOW_CTX_TASK_ID='extract_post_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-04T02:12:45.198777+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-04T02:12:45.198777+00:00'
+[2023-10-04T02:12:48.871+0000] {logging_mixin.py:151} INFO -                                                title  ...  subreddit
+0                            THEY WON THE UNION VOTE  ...  starbucks
+1                 60 Frappuccino’s with no tip… $279  ...  starbucks
+2             I'm not allowed to make signs anymore.  ...  starbucks
+3                        What did you get fired for?  ...  starbucks
+4                        An inspiration to us all 🙌🏻  ...  starbucks
+5  when they buy a $0.05 handle bag and request a...  ...  starbucks
+6                Filling out the CoVid CoAcH like...  ...  starbucks
+7                                bro is struggling 💀  ...  starbucks
+8   Needless to say we’ve been verbally abused a lot  ...  starbucks
+9  Year two of dressing up as In-N-Out at my Star...  ...  starbucks
+
+[10 rows x 9 columns]
+[2023-10-04T02:12:48.893+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-04T02:12:48.907+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Reddit_Post_Dag, task_id=extract_post_task, execution_date=20231004T021245, start_date=20231004T021246, end_date=20231004T021248
+[2023-10-04T02:12:48.964+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-04T02:12:49.000+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

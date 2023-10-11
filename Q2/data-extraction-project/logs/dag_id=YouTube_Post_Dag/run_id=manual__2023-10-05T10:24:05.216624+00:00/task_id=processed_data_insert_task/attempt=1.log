@@ -1,0 +1,72 @@
+[2023-10-05T10:24:28.009+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: YouTube_Post_Dag.processed_data_insert_task manual__2023-10-05T10:24:05.216624+00:00 [queued]>
+[2023-10-05T10:24:28.032+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: YouTube_Post_Dag.processed_data_insert_task manual__2023-10-05T10:24:05.216624+00:00 [queued]>
+[2023-10-05T10:24:28.033+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-10-05T10:24:28.057+0000] {taskinstance.py:1382} INFO - Executing <Task(YouTubeProcessDataTableOperator): processed_data_insert_task> on 2023-10-05 10:24:05.216624+00:00
+[2023-10-05T10:24:28.071+0000] {standard_task_runner.py:57} INFO - Started process 775 to run task
+[2023-10-05T10:24:28.079+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'YouTube_Post_Dag', 'processed_data_insert_task', 'manual__2023-10-05T10:24:05.216624+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/youTube_video_data_dag.py', '--cfg-path', '/tmp/tmpnk4888ra']
+[2023-10-05T10:24:28.085+0000] {standard_task_runner.py:85} INFO - Job 103: Subtask processed_data_insert_task
+[2023-10-05T10:24:28.178+0000] {task_command.py:415} INFO - Running <TaskInstance: YouTube_Post_Dag.processed_data_insert_task manual__2023-10-05T10:24:05.216624+00:00 [running]> on host bdf8a93b58be
+[2023-10-05T10:24:28.592+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='YouTube_Post_Dag' AIRFLOW_CTX_TASK_ID='processed_data_insert_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-05T10:24:05.216624+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-05T10:24:05.216624+00:00'
+[2023-10-05T10:24:28.594+0000] {youTube_process_data_table_operator.py:27} INFO - Executing CustomMySqlOperator with data from task: data_transformation_task
+[2023-10-05T10:24:28.616+0000] {sql.py:274} INFO - Executing: CREATE TABLE IF NOT EXISTS youtube_posts(id INT AUTO_INCREMENT PRIMARY KEY,title VARCHAR(255), view_count INT, like_count INT, comment_count INT, favorite_count INT, duration VARCHAR(255), published_at DATETIME DEFAULT NULL, published_date DATETIME DEFAULT NULL, published_time DATETIME DEFAULT NULL)
+[2023-10-05T10:24:28.624+0000] {base.py:73} INFO - Using connection ID 'mysql_connection' for task execution.
+[2023-10-05T10:24:28.637+0000] {base.py:73} INFO - Using connection ID 'mysql_connection' for task execution.
+[2023-10-05T10:24:28.667+0000] {sql.py:418} INFO - Running statement: CREATE TABLE IF NOT EXISTS youtube_posts(id INT AUTO_INCREMENT PRIMARY KEY,title VARCHAR(255), view_count INT, like_count INT, comment_count INT, favorite_count INT, duration VARCHAR(255), published_at DATETIME DEFAULT NULL, published_date DATETIME DEFAULT NULL, published_time DATETIME DEFAULT NULL), parameters: None
+[2023-10-05T10:24:28.716+0000] {sql.py:427} INFO - Rows affected: 0
+[2023-10-05T10:24:28.728+0000] {logging_mixin.py:151} INFO - mysql_connection
+[2023-10-05T10:24:28.907+0000] {logging_mixin.py:151} INFO -                                                 title  ... published_time
+0   Full Energy New Day With Starbucks Coffee Musi...  ...       22:05:11
+1   Starbucks BGM 2024 : Positive Jazz Music with ...  ...       12:37:21
+2   Starbucks Coffee Music & Jazz Relaxing Music -...  ...       09:54:40
+3   Happy October Jazz - Relaxing Morning Starbuck...  ...       22:00:08
+4   Relaxing Starbucks Cafe Music - Smooth Bossa N...  ...       13:12:16
+5   Stress Relief with Autumn Relax Music 🍂 Starbu...  ...       22:00:07
+6   Starbucks Coffee Shop Music - Starbucks Cafe J...  ...       10:45:24
+7   Starbucks October Jazz 🍁 Relaxing Elegant Boss...  ...       22:00:09
+8   Starbucks Autumn Ambience - Smooth Jazz Music ...  ...       13:27:06
+9   Starbucks Autumn Ambience - Smooth Jazz Music ...  ...       11:41:53
+10  Weekend Jazz Music - Starbucks Coffee Shop Mus...  ...       22:00:08
+11  Elegant Jazz Music - Starbucks Coffee Jazz & B...  ...       15:22:57
+12  Starbucks Happy Jazz - Good Mood Starbucks Caf...  ...       22:00:10
+13  Starbucks Jazz Music Collection 2023 - 12 Hour...  ...       11:53:37
+14  Starbucks Happy Morning Music - Relaxing Starb...  ...       11:52:41
+15  Morning Starbucks Cafe Ambience - Instrumental...  ...       22:00:08
+16  Starbucks Music Playlist 2023 - Smooth Music C...  ...       22:00:09
+17  Happy Mood Jazz Music With Starbucks Coffee - ...  ...       12:16:04
+18  Sweet Starbucks Music - 24 Hours Relaxing Star...  ...       22:00:12
+19  [Starbucks BGM ]Happy Jazz- Good Mood Septembe...  ...       19:02:20
+20  Happy Jazz - Relaxing Piano Music With Starbuc...  ...       00:28:38
+21  Starbucks Morning Jazz - Relaxing September Mu...  ...       22:00:12
+22  Autumn Relax With Starbucks Jazz - Starbucks M...  ...       18:59:54
+23  Morning Jazz - Begin the day with Smooth Starb...  ...       12:22:19
+24  Starbucks Sweet Jazz - Relaxing Morning Starbu...  ...       12:01:23
+25  Positive Energy Jazz ☕ Sweet Starbucks Coffee ...  ...       22:00:07
+26  September Jazz ☕ Starbucks Jazz Coffee & Smoot...  ...       12:07:01
+27  Starbucks Jazz Music 🎧 Happy Morning Coffee Mu...  ...       13:20:50
+28  Autumn Relax With Starbucks Jazz - Starbucks M...  ...       22:00:12
+29  Start Week With Starbucks Coffee Music - Starb...  ...       13:35:14
+30  Elegant August Jazz ☕ Upbeat Morning Starbucks...  ...       15:01:32
+31  [Starbucks BGM] Cafe Music Starbucks - Relaxin...  ...       14:06:50
+32  Positive Jazz ☕ Relaxing Jazz Instrumental Sta...  ...       22:00:10
+33  Starbucks Music Playlist 2023 - Best of Playli...  ...       13:30:08
+34  Weekend Music - Relaxing Starbucks Coffee Jazz...  ...       22:00:11
+35  Happy Jazz ☕ Positive August Jazz Coffee & Upb...  ...       22:00:08
+36  Happy August Jazz - Starbucks Jazz & Starbucks...  ...       22:00:08
+37  Smooth Starbucks Coffee Jazz ☕ Delicate Jazz &...  ...       22:00:11
+38  24 Hours Starbucks Music - Morning Music Cafe ...  ...       22:00:08
+39  Positive Starbucks Music - 24 Hours Smooth Sta...  ...       22:00:11
+40  Starbucks Coffee Shop - Smooth Piano Jazz Musi...  ...       22:00:08
+41  Starbucks Coffee Music - Enchanting Piano Melo...  ...       22:00:10
+42  Relaxing Starbucks Music - Happy Morning Starb...  ...       22:00:08
+43  Morning Jazz: Sip Your Starbucks Coffee with B...  ...       22:00:10
+44  Indulge in the Rhythms of July: A Fusion of Bo...  ...       22:00:11
+45  Experience of Weekends with Starbucks Cafe Mus...  ...       22:00:10
+46  Positive Energy With Starbucks Music - Relaxin...  ...       22:04:51
+47  Happy Starbucks Music - 24 Hours Smooth Starbu...  ...       22:00:07
+48  Relaxing Starbucks Coffee Music 2024 - Cafe Ja...  ...       12:59:58
+49  Positive Mood Jazz - Happy Morning Starbucks C...  ...       22:00:08
+
+[50 rows x 10 columns]
+[2023-10-05T10:24:29.278+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=YouTube_Post_Dag, task_id=processed_data_insert_task, execution_date=20231005T102405, start_date=20231005T102428, end_date=20231005T102429
+[2023-10-05T10:24:29.342+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-05T10:24:29.376+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

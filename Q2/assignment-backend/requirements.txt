@@ -1,0 +1,13 @@
+flask
+flask-restful==0.3.10
+flask-cors==4.0.0
+requests==2.31.0
+Flask-SQLAlchemy
+PyMySQL
+mysql-connector-python
+cryptography
+praw
+joblib
+pandas
+statsmodels
+networkx
