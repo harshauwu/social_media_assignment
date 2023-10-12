@@ -25,10 +25,9 @@ def create_schedule_post():
 
         if new_post.id:
             if data['is_one_time']:
-                print('sdf')
-                # create_reddit_post(data)
+                data = create_reddit_post(data)
                 # create_facebook_post(data)
-        return jsonify({"message": "schedule post insert successful", "id": new_post.id}), 200
+        return jsonify({"message": "schedule post insert successful", "id": new_post.id, "data": data}), 200
     except Exception as e:
             # Handle exceptions (e.g., database connection error)
             return f"Error Saving Reddit posts: {str(e)}"
@@ -44,8 +43,8 @@ def create_reddit_post(data):
                             redirect_uri='http://localhost:5050/callback')
     
         
-        title = data.title
-        self_text = data.text
+        title = data["title"]
+        self_text = data["text"]
 
         # gif = InlineGif(path="path/to/image.gif", caption="optional caption")
         image = InlineImage(path="media/test.png", caption="this is test image")

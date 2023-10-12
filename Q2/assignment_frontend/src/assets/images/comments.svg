@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <filter id="Icon_awesome-comment-alt" x="7" y="10" width="46.091" height="46.093" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1663" data-name="Group 1663" transform="translate(-609 -314)">
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="60" height="60" rx="16" transform="translate(609 314)" fill="#9defa4"/>
+    <g transform="matrix(1, 0, 0, 1, 609, 314)" filter="url(#Icon_awesome-comment-alt)">
+      <path id="Icon_awesome-comment-alt-2" data-name="Icon awesome-comment-alt" d="M24.58,0H3.511A3.515,3.515,0,0,0,0,3.511v15.8a3.515,3.515,0,0,0,3.511,3.511H8.778v4.609a.66.66,0,0,0,1.048.532l6.853-5.141h7.9a3.515,3.515,0,0,0,3.511-3.511V3.511A3.515,3.515,0,0,0,24.58,0Z" transform="translate(16 16)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

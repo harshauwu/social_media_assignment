@@ -1,12 +1,16 @@
 # app.py
 
 from flask import Flask
+from flask_cors import CORS
 from config import SQLALCHEMY_DATABASE_URI, SQLALCHEMY_TRACK_MODIFICATIONS
 from db.db_connection import db
 from flask_sqlalchemy import SQLAlchemy
 
 # Create a Flask app
 app = Flask(__name__)
+
+# Enable CORS for your app
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 print(SQLALCHEMY_DATABASE_URI)
 
