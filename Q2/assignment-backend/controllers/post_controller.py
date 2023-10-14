@@ -1,7 +1,7 @@
 from flask import request, jsonify
 import praw
 from praw.models import InlineGif, InlineImage, InlineVideo
-from config import REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT
+from config import REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT, REDDIT_USER_NAME, REDDIT_PASSWORD
 from services.post_service import save_post, get_all_schedule_posts
 
 
@@ -38,8 +38,8 @@ def create_reddit_post(data):
         reddit = praw.Reddit(client_id=REDDIT_CLIENT_ID,
                             client_secret=REDDIT_CLIENT_SECRET,
                             user_agent=REDDIT_USER_AGENT,
-                            username="Global-Tomatillo-248",
-                            password="AdAiAY#JDS1",
+                            username=REDDIT_USER_NAME, 
+                            password=REDDIT_PASSWORD, 
                             redirect_uri='http://localhost:5050/callback')
     
         
