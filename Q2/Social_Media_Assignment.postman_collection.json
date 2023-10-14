@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "1334b9a1-c49c-4c08-9b45-2941e69e6e50",
+		"name": "Social_Media_Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "107164"
+	},
+	"item": [
+		{
+			"name": "Welcome API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5050/"
+			},
+			"response": []
+		},
+		{
+			"name": "Post Schedule",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"This is MSC assignment post\",\n    \"text\": \"Demonstrate an understanding of concepts underlying social media analytics and be able to apply them appropriately in a business setting;\",\n    \"tags\": [\"MSC\", \"Assignment\"],\n    \"url\": \"https://www.example.com/social-Analytics\",\n    \"file\": \"\",\n    \"is_one_time\": true,\n    \"rule\": \"2023-09-12\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5050/reddit/schedule-post"
+			},
+			"response": []
+		},
+		{
+			"name": "Forecast Like",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/reddit/predictive-likes?forecast_periods=7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"reddit",
+						"predictive-likes"
+					],
+					"query": [
+						{
+							"key": "forecast_periods",
+							"value": "7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reddit Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5050/reddit/reddit-details"
+			},
+			"response": []
+		},
+		{
+			"name": "YouTube Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5050/reddit/youtube-details"
+			},
+			"response": []
+		},
+		{
+			"name": "Comment Polarity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5050/reddit/comment-polarity"
+			},
+			"response": []
+		},
+		{
+			"name": "Schedule Post List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5050/reddit/schedule-post"
+			},
+			"response": []
+		},
+		{
+			"name": "Predictive Views",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/reddit/predictive-views?forecast_periods=7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"reddit",
+						"predictive-views"
+					],
+					"query": [
+						{
+							"key": "forecast_periods",
+							"value": "7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Social Network Analysis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5050/reddit/social-network-analysis"
+			},
+			"response": []
+		},
+		{
+			"name": "Visualize Social Network",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5050/reddit/visualize-social-network"
+			},
+			"response": []
+		}
+	]
+}
