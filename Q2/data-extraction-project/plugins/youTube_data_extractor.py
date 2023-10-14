@@ -1,11 +1,12 @@
 import googleapiclient.discovery
 import pandas as pd
+from airflow.models import Variable
 
 def extract_video_data(**kwargs):
     ti = kwargs['ti'] 
 
     # Set your API key here
-    api_key = 'AIzaSyDqo_SDsaZimlGsa7QUdl47yBMArVqKUTA'
+    api_key = Variable.get("api_key")
 
     # Create a YouTube Data API client
     youtube = googleapiclient.discovery.build('youtube', 'v3', developerKey=api_key)

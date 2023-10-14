@@ -1,14 +1,22 @@
 import praw
 import pandas as pd
 import googleapiclient.discovery
+from airflow.models import Variable
 
 def extract_post_data(**kwargs):
     ti = kwargs['ti'] 
+    
+    # Retrieving the value of "client_id" variable from Airflow's Variable feature
+    client_id = Variable.get("client_id")
+
+    # Retrieving the value of "client_secret" variable from Airflow's Variable feature
+    client_secret = Variable.get("client_secret")
+
 
     # Creating a Reddit object with the required parameters
     reddit = praw.Reddit(
-        client_id='izlVfPwECjziab_rpf2D_A',
-        client_secret='LhjN-wepGfUncebvFygM2gVlOxRPBw',
+        client_id=client_id,
+        client_secret=client_secret,
         redirect_uri="http://localhost:8080",
         user_agent="testscript by u/fakebot3",
     )
