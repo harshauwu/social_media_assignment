@@ -40,7 +40,7 @@ export const ScheduledPosts = () => {
             className="btn-lg"
             onClick={() => handleShow()}
           >
-            New Schdule
+            New Schedule
           </Button>
         </div>
         <Table bordered hover size="lg">
@@ -50,7 +50,7 @@ export const ScheduledPosts = () => {
               <th>Text</th>
               <th>Tag</th>
               <th>Url</th>
-              <th>Rrule</th>
+              <th>Date</th>
             </tr>
           </thead>
           <tbody>

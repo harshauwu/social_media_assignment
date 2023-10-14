@@ -7,7 +7,6 @@ import requests
 
 def get_schedule_posts():
     try:
-         
        # Call the service function to get all Reddit posts
         posts = get_all_schedule_posts()
         return jsonify({"data": posts}), 200
